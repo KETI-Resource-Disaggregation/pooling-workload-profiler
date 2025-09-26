@@ -1,0 +1,71 @@
+# --- Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+*.egg-info/
+
+# --- Node/Web (필요 시)
+node_modules/
+dist/
+build/
+.cache/
+.next/
+out/
+
+# --- IDE/OS
+.vscode/
+.idea/
+.DS_Store
+
+# --- Logs
+logs/
+*.log
+
+# --- Large artifacts (모델/체크포인트/데이터/결과물)
+# 디렉토리
+models/
+artifacts/
+checkpoints/
+outputs/
+runs/
+data/
+datasets/
+# 확장자
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+*.tflite
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.npz
+*.npy
+
+# --- CUDA/Build
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.exp
+*.pdb
+*.cuo
+
+# --- Images & plots (원본 큰 파일은 외부 저장 권장)
+*.bmp
+*.tiff
+*.tif
+*.psd
+
+# --- Misc
+.env
+.env.*
+
