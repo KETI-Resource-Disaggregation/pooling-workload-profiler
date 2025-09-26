@@ -1,0 +1,5631 @@
+{
+  "model_path": "main",
+  "num_nodes": 174,
+  "levels": [
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      4
+    ],
+    [
+      5
+    ],
+    [
+      6
+    ],
+    [
+      7,
+      14
+    ],
+    [
+      8
+    ],
+    [
+      9
+    ],
+    [
+      10
+    ],
+    [
+      11
+    ],
+    [
+      12
+    ],
+    [
+      13
+    ],
+    [
+      15
+    ],
+    [
+      16
+    ],
+    [
+      17
+    ],
+    [
+      18
+    ],
+    [
+      19
+    ],
+    [
+      20
+    ],
+    [
+      21
+    ],
+    [
+      22
+    ],
+    [
+      23
+    ],
+    [
+      24
+    ],
+    [
+      25
+    ],
+    [
+      26
+    ],
+    [
+      27
+    ],
+    [
+      28
+    ],
+    [
+      29
+    ],
+    [
+      30
+    ],
+    [
+      31
+    ],
+    [
+      32
+    ],
+    [
+      33
+    ],
+    [
+      34
+    ],
+    [
+      35
+    ],
+    [
+      36
+    ],
+    [
+      37
+    ],
+    [
+      38,
+      45
+    ],
+    [
+      39
+    ],
+    [
+      40
+    ],
+    [
+      41
+    ],
+    [
+      42
+    ],
+    [
+      43
+    ],
+    [
+      44
+    ],
+    [
+      46
+    ],
+    [
+      47
+    ],
+    [
+      48
+    ],
+    [
+      49
+    ],
+    [
+      50
+    ],
+    [
+      51
+    ],
+    [
+      52
+    ],
+    [
+      53
+    ],
+    [
+      54
+    ],
+    [
+      55
+    ],
+    [
+      56
+    ],
+    [
+      57
+    ],
+    [
+      58
+    ],
+    [
+      59
+    ],
+    [
+      60
+    ],
+    [
+      61
+    ],
+    [
+      62
+    ],
+    [
+      63
+    ],
+    [
+      64
+    ],
+    [
+      65
+    ],
+    [
+      66
+    ],
+    [
+      67
+    ],
+    [
+      68
+    ],
+    [
+      69
+    ],
+    [
+      70
+    ],
+    [
+      71
+    ],
+    [
+      72
+    ],
+    [
+      73
+    ],
+    [
+      74
+    ],
+    [
+      75
+    ],
+    [
+      76
+    ],
+    [
+      77
+    ],
+    [
+      78
+    ],
+    [
+      79,
+      86
+    ],
+    [
+      80
+    ],
+    [
+      81
+    ],
+    [
+      82
+    ],
+    [
+      83
+    ],
+    [
+      84
+    ],
+    [
+      85
+    ],
+    [
+      87
+    ],
+    [
+      88
+    ],
+    [
+      89
+    ],
+    [
+      90
+    ],
+    [
+      91
+    ],
+    [
+      92
+    ],
+    [
+      93
+    ],
+    [
+      94
+    ],
+    [
+      95
+    ],
+    [
+      96
+    ],
+    [
+      97
+    ],
+    [
+      98
+    ],
+    [
+      99
+    ],
+    [
+      100
+    ],
+    [
+      101
+    ],
+    [
+      102
+    ],
+    [
+      103
+    ],
+    [
+      104
+    ],
+    [
+      105
+    ],
+    [
+      106
+    ],
+    [
+      107
+    ],
+    [
+      108
+    ],
+    [
+      109
+    ],
+    [
+      110
+    ],
+    [
+      111
+    ],
+    [
+      112
+    ],
+    [
+      113
+    ],
+    [
+      114
+    ],
+    [
+      115
+    ],
+    [
+      116
+    ],
+    [
+      117
+    ],
+    [
+      118
+    ],
+    [
+      119
+    ],
+    [
+      120
+    ],
+    [
+      121
+    ],
+    [
+      122
+    ],
+    [
+      123
+    ],
+    [
+      124
+    ],
+    [
+      125
+    ],
+    [
+      126
+    ],
+    [
+      127
+    ],
+    [
+      128
+    ],
+    [
+      129
+    ],
+    [
+      130
+    ],
+    [
+      131
+    ],
+    [
+      132
+    ],
+    [
+      133
+    ],
+    [
+      134
+    ],
+    [
+      135
+    ],
+    [
+      136
+    ],
+    [
+      137
+    ],
+    [
+      138
+    ],
+    [
+      139
+    ],
+    [
+      140,
+      147
+    ],
+    [
+      141
+    ],
+    [
+      142
+    ],
+    [
+      143
+    ],
+    [
+      144
+    ],
+    [
+      145
+    ],
+    [
+      146
+    ],
+    [
+      148
+    ],
+    [
+      149
+    ],
+    [
+      150
+    ],
+    [
+      151
+    ],
+    [
+      152
+    ],
+    [
+      153
+    ],
+    [
+      154
+    ],
+    [
+      155
+    ],
+    [
+      156
+    ],
+    [
+      157
+    ],
+    [
+      158
+    ],
+    [
+      159
+    ],
+    [
+      160
+    ],
+    [
+      161
+    ],
+    [
+      162
+    ],
+    [
+      163
+    ],
+    [
+      164
+    ],
+    [
+      165
+    ],
+    [
+      166
+    ],
+    [
+      167
+    ],
+    [
+      168
+    ],
+    [
+      169
+    ],
+    [
+      170
+    ],
+    [
+      171
+    ],
+    [
+      172
+    ],
+    [
+      173
+    ]
+  ],
+  "nodes": [
+    {
+      "idx": 0,
+      "name": "resnetv24_batchnorm0_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "data",
+        "resnetv24_batchnorm0_gamma",
+        "resnetv24_batchnorm0_beta",
+        "resnetv24_batchnorm0_running_mean",
+        "resnetv24_batchnorm0_running_var"
+      ],
+      "outputs": [
+        "resnetv24_batchnorm0_fwd"
+      ],
+      "producers": [],
+      "consumers": [
+        1
+      ],
+      "fanin_from_nodes": 0,
+      "fanout": 1,
+      "level": 0
+    },
+    {
+      "idx": 1,
+      "name": "resnetv24_conv0_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_batchnorm0_fwd",
+        "resnetv24_conv0_weight"
+      ],
+      "outputs": [
+        "resnetv24_conv0_fwd"
+      ],
+      "producers": [
+        0
+      ],
+      "consumers": [
+        2
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 1
+    },
+    {
+      "idx": 2,
+      "name": "resnetv24_batchnorm1_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_conv0_fwd",
+        "resnetv24_batchnorm1_gamma",
+        "resnetv24_batchnorm1_beta",
+        "resnetv24_batchnorm1_running_mean",
+        "resnetv24_batchnorm1_running_var"
+      ],
+      "outputs": [
+        "resnetv24_batchnorm1_fwd"
+      ],
+      "producers": [
+        1
+      ],
+      "consumers": [
+        3
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 2
+    },
+    {
+      "idx": 3,
+      "name": "resnetv24_relu0_fwd",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_batchnorm1_fwd"
+      ],
+      "outputs": [
+        "resnetv24_relu0_fwd"
+      ],
+      "producers": [
+        2
+      ],
+      "consumers": [
+        4
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 3
+    },
+    {
+      "idx": 4,
+      "name": "resnetv24_pool0_fwd",
+      "op_type": "MaxPool",
+      "inputs": [
+        "resnetv24_relu0_fwd"
+      ],
+      "outputs": [
+        "resnetv24_pool0_fwd"
+      ],
+      "producers": [
+        3
+      ],
+      "consumers": [
+        5
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 4
+    },
+    {
+      "idx": 5,
+      "name": "resnetv24_stage1_batchnorm0_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_pool0_fwd",
+        "resnetv24_stage1_batchnorm0_gamma",
+        "resnetv24_stage1_batchnorm0_beta",
+        "resnetv24_stage1_batchnorm0_running_mean",
+        "resnetv24_stage1_batchnorm0_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage1_batchnorm0_fwd"
+      ],
+      "producers": [
+        4
+      ],
+      "consumers": [
+        6
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 5
+    },
+    {
+      "idx": 6,
+      "name": "resnetv24_stage1_activation0",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage1_batchnorm0_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage1_activation0"
+      ],
+      "producers": [
+        5
+      ],
+      "consumers": [
+        7,
+        14
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 2,
+      "level": 6
+    },
+    {
+      "idx": 7,
+      "name": "resnetv24_stage1_conv0_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage1_activation0",
+        "resnetv24_stage1_conv0_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage1_conv0_fwd"
+      ],
+      "producers": [
+        6
+      ],
+      "consumers": [
+        8
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 7
+    },
+    {
+      "idx": 8,
+      "name": "resnetv24_stage1_batchnorm1_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage1_conv0_fwd",
+        "resnetv24_stage1_batchnorm1_gamma",
+        "resnetv24_stage1_batchnorm1_beta",
+        "resnetv24_stage1_batchnorm1_running_mean",
+        "resnetv24_stage1_batchnorm1_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage1_batchnorm1_fwd"
+      ],
+      "producers": [
+        7
+      ],
+      "consumers": [
+        9
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 8
+    },
+    {
+      "idx": 9,
+      "name": "resnetv24_stage1_activation1",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage1_batchnorm1_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage1_activation1"
+      ],
+      "producers": [
+        8
+      ],
+      "consumers": [
+        10
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 9
+    },
+    {
+      "idx": 10,
+      "name": "resnetv24_stage1_conv1_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage1_activation1",
+        "resnetv24_stage1_conv1_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage1_conv1_fwd"
+      ],
+      "producers": [
+        9
+      ],
+      "consumers": [
+        11
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 10
+    },
+    {
+      "idx": 11,
+      "name": "resnetv24_stage1_batchnorm2_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage1_conv1_fwd",
+        "resnetv24_stage1_batchnorm2_gamma",
+        "resnetv24_stage1_batchnorm2_beta",
+        "resnetv24_stage1_batchnorm2_running_mean",
+        "resnetv24_stage1_batchnorm2_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage1_batchnorm2_fwd"
+      ],
+      "producers": [
+        10
+      ],
+      "consumers": [
+        12
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 11
+    },
+    {
+      "idx": 12,
+      "name": "resnetv24_stage1_activation2",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage1_batchnorm2_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage1_activation2"
+      ],
+      "producers": [
+        11
+      ],
+      "consumers": [
+        13
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 12
+    },
+    {
+      "idx": 13,
+      "name": "resnetv24_stage1_conv2_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage1_activation2",
+        "resnetv24_stage1_conv2_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage1_conv2_fwd"
+      ],
+      "producers": [
+        12
+      ],
+      "consumers": [
+        15
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 13
+    },
+    {
+      "idx": 14,
+      "name": "resnetv24_stage1_conv3_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage1_activation0",
+        "resnetv24_stage1_conv3_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage1_conv3_fwd"
+      ],
+      "producers": [
+        6
+      ],
+      "consumers": [
+        15
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 7
+    },
+    {
+      "idx": 15,
+      "name": "resnetv24_stage1__plus0",
+      "op_type": "Add",
+      "inputs": [
+        "resnetv24_stage1_conv2_fwd",
+        "resnetv24_stage1_conv3_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage1__plus0"
+      ],
+      "producers": [
+        13,
+        14
+      ],
+      "consumers": [
+        16,
+        25
+      ],
+      "fanin_from_nodes": 2,
+      "fanout": 2,
+      "level": 14
+    },
+    {
+      "idx": 16,
+      "name": "resnetv24_stage1_batchnorm3_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage1__plus0",
+        "resnetv24_stage1_batchnorm3_gamma",
+        "resnetv24_stage1_batchnorm3_beta",
+        "resnetv24_stage1_batchnorm3_running_mean",
+        "resnetv24_stage1_batchnorm3_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage1_batchnorm3_fwd"
+      ],
+      "producers": [
+        15
+      ],
+      "consumers": [
+        17
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 15
+    },
+    {
+      "idx": 17,
+      "name": "resnetv24_stage1_activation3",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage1_batchnorm3_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage1_activation3"
+      ],
+      "producers": [
+        16
+      ],
+      "consumers": [
+        18
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 16
+    },
+    {
+      "idx": 18,
+      "name": "resnetv24_stage1_conv4_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage1_activation3",
+        "resnetv24_stage1_conv4_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage1_conv4_fwd"
+      ],
+      "producers": [
+        17
+      ],
+      "consumers": [
+        19
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 17
+    },
+    {
+      "idx": 19,
+      "name": "resnetv24_stage1_batchnorm4_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage1_conv4_fwd",
+        "resnetv24_stage1_batchnorm4_gamma",
+        "resnetv24_stage1_batchnorm4_beta",
+        "resnetv24_stage1_batchnorm4_running_mean",
+        "resnetv24_stage1_batchnorm4_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage1_batchnorm4_fwd"
+      ],
+      "producers": [
+        18
+      ],
+      "consumers": [
+        20
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 18
+    },
+    {
+      "idx": 20,
+      "name": "resnetv24_stage1_activation4",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage1_batchnorm4_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage1_activation4"
+      ],
+      "producers": [
+        19
+      ],
+      "consumers": [
+        21
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 19
+    },
+    {
+      "idx": 21,
+      "name": "resnetv24_stage1_conv5_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage1_activation4",
+        "resnetv24_stage1_conv5_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage1_conv5_fwd"
+      ],
+      "producers": [
+        20
+      ],
+      "consumers": [
+        22
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 20
+    },
+    {
+      "idx": 22,
+      "name": "resnetv24_stage1_batchnorm5_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage1_conv5_fwd",
+        "resnetv24_stage1_batchnorm5_gamma",
+        "resnetv24_stage1_batchnorm5_beta",
+        "resnetv24_stage1_batchnorm5_running_mean",
+        "resnetv24_stage1_batchnorm5_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage1_batchnorm5_fwd"
+      ],
+      "producers": [
+        21
+      ],
+      "consumers": [
+        23
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 21
+    },
+    {
+      "idx": 23,
+      "name": "resnetv24_stage1_activation5",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage1_batchnorm5_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage1_activation5"
+      ],
+      "producers": [
+        22
+      ],
+      "consumers": [
+        24
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 22
+    },
+    {
+      "idx": 24,
+      "name": "resnetv24_stage1_conv6_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage1_activation5",
+        "resnetv24_stage1_conv6_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage1_conv6_fwd"
+      ],
+      "producers": [
+        23
+      ],
+      "consumers": [
+        25
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 23
+    },
+    {
+      "idx": 25,
+      "name": "resnetv24_stage1__plus1",
+      "op_type": "Add",
+      "inputs": [
+        "resnetv24_stage1_conv6_fwd",
+        "resnetv24_stage1__plus0"
+      ],
+      "outputs": [
+        "resnetv24_stage1__plus1"
+      ],
+      "producers": [
+        15,
+        24
+      ],
+      "consumers": [
+        26,
+        35
+      ],
+      "fanin_from_nodes": 2,
+      "fanout": 2,
+      "level": 24
+    },
+    {
+      "idx": 26,
+      "name": "resnetv24_stage1_batchnorm6_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage1__plus1",
+        "resnetv24_stage1_batchnorm6_gamma",
+        "resnetv24_stage1_batchnorm6_beta",
+        "resnetv24_stage1_batchnorm6_running_mean",
+        "resnetv24_stage1_batchnorm6_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage1_batchnorm6_fwd"
+      ],
+      "producers": [
+        25
+      ],
+      "consumers": [
+        27
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 25
+    },
+    {
+      "idx": 27,
+      "name": "resnetv24_stage1_activation6",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage1_batchnorm6_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage1_activation6"
+      ],
+      "producers": [
+        26
+      ],
+      "consumers": [
+        28
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 26
+    },
+    {
+      "idx": 28,
+      "name": "resnetv24_stage1_conv7_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage1_activation6",
+        "resnetv24_stage1_conv7_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage1_conv7_fwd"
+      ],
+      "producers": [
+        27
+      ],
+      "consumers": [
+        29
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 27
+    },
+    {
+      "idx": 29,
+      "name": "resnetv24_stage1_batchnorm7_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage1_conv7_fwd",
+        "resnetv24_stage1_batchnorm7_gamma",
+        "resnetv24_stage1_batchnorm7_beta",
+        "resnetv24_stage1_batchnorm7_running_mean",
+        "resnetv24_stage1_batchnorm7_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage1_batchnorm7_fwd"
+      ],
+      "producers": [
+        28
+      ],
+      "consumers": [
+        30
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 28
+    },
+    {
+      "idx": 30,
+      "name": "resnetv24_stage1_activation7",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage1_batchnorm7_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage1_activation7"
+      ],
+      "producers": [
+        29
+      ],
+      "consumers": [
+        31
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 29
+    },
+    {
+      "idx": 31,
+      "name": "resnetv24_stage1_conv8_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage1_activation7",
+        "resnetv24_stage1_conv8_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage1_conv8_fwd"
+      ],
+      "producers": [
+        30
+      ],
+      "consumers": [
+        32
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 30
+    },
+    {
+      "idx": 32,
+      "name": "resnetv24_stage1_batchnorm8_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage1_conv8_fwd",
+        "resnetv24_stage1_batchnorm8_gamma",
+        "resnetv24_stage1_batchnorm8_beta",
+        "resnetv24_stage1_batchnorm8_running_mean",
+        "resnetv24_stage1_batchnorm8_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage1_batchnorm8_fwd"
+      ],
+      "producers": [
+        31
+      ],
+      "consumers": [
+        33
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 31
+    },
+    {
+      "idx": 33,
+      "name": "resnetv24_stage1_activation8",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage1_batchnorm8_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage1_activation8"
+      ],
+      "producers": [
+        32
+      ],
+      "consumers": [
+        34
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 32
+    },
+    {
+      "idx": 34,
+      "name": "resnetv24_stage1_conv9_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage1_activation8",
+        "resnetv24_stage1_conv9_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage1_conv9_fwd"
+      ],
+      "producers": [
+        33
+      ],
+      "consumers": [
+        35
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 33
+    },
+    {
+      "idx": 35,
+      "name": "resnetv24_stage1__plus2",
+      "op_type": "Add",
+      "inputs": [
+        "resnetv24_stage1_conv9_fwd",
+        "resnetv24_stage1__plus1"
+      ],
+      "outputs": [
+        "resnetv24_stage1__plus2"
+      ],
+      "producers": [
+        25,
+        34
+      ],
+      "consumers": [
+        36
+      ],
+      "fanin_from_nodes": 2,
+      "fanout": 1,
+      "level": 34
+    },
+    {
+      "idx": 36,
+      "name": "resnetv24_stage2_batchnorm0_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage1__plus2",
+        "resnetv24_stage2_batchnorm0_gamma",
+        "resnetv24_stage2_batchnorm0_beta",
+        "resnetv24_stage2_batchnorm0_running_mean",
+        "resnetv24_stage2_batchnorm0_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage2_batchnorm0_fwd"
+      ],
+      "producers": [
+        35
+      ],
+      "consumers": [
+        37
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 35
+    },
+    {
+      "idx": 37,
+      "name": "resnetv24_stage2_activation0",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage2_batchnorm0_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage2_activation0"
+      ],
+      "producers": [
+        36
+      ],
+      "consumers": [
+        38,
+        45
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 2,
+      "level": 36
+    },
+    {
+      "idx": 38,
+      "name": "resnetv24_stage2_conv0_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage2_activation0",
+        "resnetv24_stage2_conv0_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage2_conv0_fwd"
+      ],
+      "producers": [
+        37
+      ],
+      "consumers": [
+        39
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 37
+    },
+    {
+      "idx": 39,
+      "name": "resnetv24_stage2_batchnorm1_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage2_conv0_fwd",
+        "resnetv24_stage2_batchnorm1_gamma",
+        "resnetv24_stage2_batchnorm1_beta",
+        "resnetv24_stage2_batchnorm1_running_mean",
+        "resnetv24_stage2_batchnorm1_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage2_batchnorm1_fwd"
+      ],
+      "producers": [
+        38
+      ],
+      "consumers": [
+        40
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 38
+    },
+    {
+      "idx": 40,
+      "name": "resnetv24_stage2_activation1",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage2_batchnorm1_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage2_activation1"
+      ],
+      "producers": [
+        39
+      ],
+      "consumers": [
+        41
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 39
+    },
+    {
+      "idx": 41,
+      "name": "resnetv24_stage2_conv1_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage2_activation1",
+        "resnetv24_stage2_conv1_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage2_conv1_fwd"
+      ],
+      "producers": [
+        40
+      ],
+      "consumers": [
+        42
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 40
+    },
+    {
+      "idx": 42,
+      "name": "resnetv24_stage2_batchnorm2_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage2_conv1_fwd",
+        "resnetv24_stage2_batchnorm2_gamma",
+        "resnetv24_stage2_batchnorm2_beta",
+        "resnetv24_stage2_batchnorm2_running_mean",
+        "resnetv24_stage2_batchnorm2_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage2_batchnorm2_fwd"
+      ],
+      "producers": [
+        41
+      ],
+      "consumers": [
+        43
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 41
+    },
+    {
+      "idx": 43,
+      "name": "resnetv24_stage2_activation2",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage2_batchnorm2_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage2_activation2"
+      ],
+      "producers": [
+        42
+      ],
+      "consumers": [
+        44
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 42
+    },
+    {
+      "idx": 44,
+      "name": "resnetv24_stage2_conv2_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage2_activation2",
+        "resnetv24_stage2_conv2_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage2_conv2_fwd"
+      ],
+      "producers": [
+        43
+      ],
+      "consumers": [
+        46
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 43
+    },
+    {
+      "idx": 45,
+      "name": "resnetv24_stage2_conv3_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage2_activation0",
+        "resnetv24_stage2_conv3_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage2_conv3_fwd"
+      ],
+      "producers": [
+        37
+      ],
+      "consumers": [
+        46
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 37
+    },
+    {
+      "idx": 46,
+      "name": "resnetv24_stage2__plus0",
+      "op_type": "Add",
+      "inputs": [
+        "resnetv24_stage2_conv2_fwd",
+        "resnetv24_stage2_conv3_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage2__plus0"
+      ],
+      "producers": [
+        44,
+        45
+      ],
+      "consumers": [
+        47,
+        56
+      ],
+      "fanin_from_nodes": 2,
+      "fanout": 2,
+      "level": 44
+    },
+    {
+      "idx": 47,
+      "name": "resnetv24_stage2_batchnorm3_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage2__plus0",
+        "resnetv24_stage2_batchnorm3_gamma",
+        "resnetv24_stage2_batchnorm3_beta",
+        "resnetv24_stage2_batchnorm3_running_mean",
+        "resnetv24_stage2_batchnorm3_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage2_batchnorm3_fwd"
+      ],
+      "producers": [
+        46
+      ],
+      "consumers": [
+        48
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 45
+    },
+    {
+      "idx": 48,
+      "name": "resnetv24_stage2_activation3",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage2_batchnorm3_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage2_activation3"
+      ],
+      "producers": [
+        47
+      ],
+      "consumers": [
+        49
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 46
+    },
+    {
+      "idx": 49,
+      "name": "resnetv24_stage2_conv4_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage2_activation3",
+        "resnetv24_stage2_conv4_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage2_conv4_fwd"
+      ],
+      "producers": [
+        48
+      ],
+      "consumers": [
+        50
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 47
+    },
+    {
+      "idx": 50,
+      "name": "resnetv24_stage2_batchnorm4_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage2_conv4_fwd",
+        "resnetv24_stage2_batchnorm4_gamma",
+        "resnetv24_stage2_batchnorm4_beta",
+        "resnetv24_stage2_batchnorm4_running_mean",
+        "resnetv24_stage2_batchnorm4_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage2_batchnorm4_fwd"
+      ],
+      "producers": [
+        49
+      ],
+      "consumers": [
+        51
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 48
+    },
+    {
+      "idx": 51,
+      "name": "resnetv24_stage2_activation4",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage2_batchnorm4_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage2_activation4"
+      ],
+      "producers": [
+        50
+      ],
+      "consumers": [
+        52
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 49
+    },
+    {
+      "idx": 52,
+      "name": "resnetv24_stage2_conv5_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage2_activation4",
+        "resnetv24_stage2_conv5_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage2_conv5_fwd"
+      ],
+      "producers": [
+        51
+      ],
+      "consumers": [
+        53
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 50
+    },
+    {
+      "idx": 53,
+      "name": "resnetv24_stage2_batchnorm5_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage2_conv5_fwd",
+        "resnetv24_stage2_batchnorm5_gamma",
+        "resnetv24_stage2_batchnorm5_beta",
+        "resnetv24_stage2_batchnorm5_running_mean",
+        "resnetv24_stage2_batchnorm5_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage2_batchnorm5_fwd"
+      ],
+      "producers": [
+        52
+      ],
+      "consumers": [
+        54
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 51
+    },
+    {
+      "idx": 54,
+      "name": "resnetv24_stage2_activation5",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage2_batchnorm5_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage2_activation5"
+      ],
+      "producers": [
+        53
+      ],
+      "consumers": [
+        55
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 52
+    },
+    {
+      "idx": 55,
+      "name": "resnetv24_stage2_conv6_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage2_activation5",
+        "resnetv24_stage2_conv6_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage2_conv6_fwd"
+      ],
+      "producers": [
+        54
+      ],
+      "consumers": [
+        56
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 53
+    },
+    {
+      "idx": 56,
+      "name": "resnetv24_stage2__plus1",
+      "op_type": "Add",
+      "inputs": [
+        "resnetv24_stage2_conv6_fwd",
+        "resnetv24_stage2__plus0"
+      ],
+      "outputs": [
+        "resnetv24_stage2__plus1"
+      ],
+      "producers": [
+        46,
+        55
+      ],
+      "consumers": [
+        57,
+        66
+      ],
+      "fanin_from_nodes": 2,
+      "fanout": 2,
+      "level": 54
+    },
+    {
+      "idx": 57,
+      "name": "resnetv24_stage2_batchnorm6_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage2__plus1",
+        "resnetv24_stage2_batchnorm6_gamma",
+        "resnetv24_stage2_batchnorm6_beta",
+        "resnetv24_stage2_batchnorm6_running_mean",
+        "resnetv24_stage2_batchnorm6_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage2_batchnorm6_fwd"
+      ],
+      "producers": [
+        56
+      ],
+      "consumers": [
+        58
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 55
+    },
+    {
+      "idx": 58,
+      "name": "resnetv24_stage2_activation6",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage2_batchnorm6_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage2_activation6"
+      ],
+      "producers": [
+        57
+      ],
+      "consumers": [
+        59
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 56
+    },
+    {
+      "idx": 59,
+      "name": "resnetv24_stage2_conv7_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage2_activation6",
+        "resnetv24_stage2_conv7_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage2_conv7_fwd"
+      ],
+      "producers": [
+        58
+      ],
+      "consumers": [
+        60
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 57
+    },
+    {
+      "idx": 60,
+      "name": "resnetv24_stage2_batchnorm7_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage2_conv7_fwd",
+        "resnetv24_stage2_batchnorm7_gamma",
+        "resnetv24_stage2_batchnorm7_beta",
+        "resnetv24_stage2_batchnorm7_running_mean",
+        "resnetv24_stage2_batchnorm7_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage2_batchnorm7_fwd"
+      ],
+      "producers": [
+        59
+      ],
+      "consumers": [
+        61
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 58
+    },
+    {
+      "idx": 61,
+      "name": "resnetv24_stage2_activation7",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage2_batchnorm7_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage2_activation7"
+      ],
+      "producers": [
+        60
+      ],
+      "consumers": [
+        62
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 59
+    },
+    {
+      "idx": 62,
+      "name": "resnetv24_stage2_conv8_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage2_activation7",
+        "resnetv24_stage2_conv8_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage2_conv8_fwd"
+      ],
+      "producers": [
+        61
+      ],
+      "consumers": [
+        63
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 60
+    },
+    {
+      "idx": 63,
+      "name": "resnetv24_stage2_batchnorm8_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage2_conv8_fwd",
+        "resnetv24_stage2_batchnorm8_gamma",
+        "resnetv24_stage2_batchnorm8_beta",
+        "resnetv24_stage2_batchnorm8_running_mean",
+        "resnetv24_stage2_batchnorm8_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage2_batchnorm8_fwd"
+      ],
+      "producers": [
+        62
+      ],
+      "consumers": [
+        64
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 61
+    },
+    {
+      "idx": 64,
+      "name": "resnetv24_stage2_activation8",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage2_batchnorm8_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage2_activation8"
+      ],
+      "producers": [
+        63
+      ],
+      "consumers": [
+        65
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 62
+    },
+    {
+      "idx": 65,
+      "name": "resnetv24_stage2_conv9_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage2_activation8",
+        "resnetv24_stage2_conv9_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage2_conv9_fwd"
+      ],
+      "producers": [
+        64
+      ],
+      "consumers": [
+        66
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 63
+    },
+    {
+      "idx": 66,
+      "name": "resnetv24_stage2__plus2",
+      "op_type": "Add",
+      "inputs": [
+        "resnetv24_stage2_conv9_fwd",
+        "resnetv24_stage2__plus1"
+      ],
+      "outputs": [
+        "resnetv24_stage2__plus2"
+      ],
+      "producers": [
+        56,
+        65
+      ],
+      "consumers": [
+        67,
+        76
+      ],
+      "fanin_from_nodes": 2,
+      "fanout": 2,
+      "level": 64
+    },
+    {
+      "idx": 67,
+      "name": "resnetv24_stage2_batchnorm9_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage2__plus2",
+        "resnetv24_stage2_batchnorm9_gamma",
+        "resnetv24_stage2_batchnorm9_beta",
+        "resnetv24_stage2_batchnorm9_running_mean",
+        "resnetv24_stage2_batchnorm9_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage2_batchnorm9_fwd"
+      ],
+      "producers": [
+        66
+      ],
+      "consumers": [
+        68
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 65
+    },
+    {
+      "idx": 68,
+      "name": "resnetv24_stage2_activation9",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage2_batchnorm9_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage2_activation9"
+      ],
+      "producers": [
+        67
+      ],
+      "consumers": [
+        69
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 66
+    },
+    {
+      "idx": 69,
+      "name": "resnetv24_stage2_conv10_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage2_activation9",
+        "resnetv24_stage2_conv10_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage2_conv10_fwd"
+      ],
+      "producers": [
+        68
+      ],
+      "consumers": [
+        70
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 67
+    },
+    {
+      "idx": 70,
+      "name": "resnetv24_stage2_batchnorm10_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage2_conv10_fwd",
+        "resnetv24_stage2_batchnorm10_gamma",
+        "resnetv24_stage2_batchnorm10_beta",
+        "resnetv24_stage2_batchnorm10_running_mean",
+        "resnetv24_stage2_batchnorm10_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage2_batchnorm10_fwd"
+      ],
+      "producers": [
+        69
+      ],
+      "consumers": [
+        71
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 68
+    },
+    {
+      "idx": 71,
+      "name": "resnetv24_stage2_activation10",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage2_batchnorm10_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage2_activation10"
+      ],
+      "producers": [
+        70
+      ],
+      "consumers": [
+        72
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 69
+    },
+    {
+      "idx": 72,
+      "name": "resnetv24_stage2_conv11_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage2_activation10",
+        "resnetv24_stage2_conv11_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage2_conv11_fwd"
+      ],
+      "producers": [
+        71
+      ],
+      "consumers": [
+        73
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 70
+    },
+    {
+      "idx": 73,
+      "name": "resnetv24_stage2_batchnorm11_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage2_conv11_fwd",
+        "resnetv24_stage2_batchnorm11_gamma",
+        "resnetv24_stage2_batchnorm11_beta",
+        "resnetv24_stage2_batchnorm11_running_mean",
+        "resnetv24_stage2_batchnorm11_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage2_batchnorm11_fwd"
+      ],
+      "producers": [
+        72
+      ],
+      "consumers": [
+        74
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 71
+    },
+    {
+      "idx": 74,
+      "name": "resnetv24_stage2_activation11",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage2_batchnorm11_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage2_activation11"
+      ],
+      "producers": [
+        73
+      ],
+      "consumers": [
+        75
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 72
+    },
+    {
+      "idx": 75,
+      "name": "resnetv24_stage2_conv12_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage2_activation11",
+        "resnetv24_stage2_conv12_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage2_conv12_fwd"
+      ],
+      "producers": [
+        74
+      ],
+      "consumers": [
+        76
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 73
+    },
+    {
+      "idx": 76,
+      "name": "resnetv24_stage2__plus3",
+      "op_type": "Add",
+      "inputs": [
+        "resnetv24_stage2_conv12_fwd",
+        "resnetv24_stage2__plus2"
+      ],
+      "outputs": [
+        "resnetv24_stage2__plus3"
+      ],
+      "producers": [
+        66,
+        75
+      ],
+      "consumers": [
+        77
+      ],
+      "fanin_from_nodes": 2,
+      "fanout": 1,
+      "level": 74
+    },
+    {
+      "idx": 77,
+      "name": "resnetv24_stage3_batchnorm0_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage2__plus3",
+        "resnetv24_stage3_batchnorm0_gamma",
+        "resnetv24_stage3_batchnorm0_beta",
+        "resnetv24_stage3_batchnorm0_running_mean",
+        "resnetv24_stage3_batchnorm0_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage3_batchnorm0_fwd"
+      ],
+      "producers": [
+        76
+      ],
+      "consumers": [
+        78
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 75
+    },
+    {
+      "idx": 78,
+      "name": "resnetv24_stage3_activation0",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage3_batchnorm0_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage3_activation0"
+      ],
+      "producers": [
+        77
+      ],
+      "consumers": [
+        79,
+        86
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 2,
+      "level": 76
+    },
+    {
+      "idx": 79,
+      "name": "resnetv24_stage3_conv0_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage3_activation0",
+        "resnetv24_stage3_conv0_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage3_conv0_fwd"
+      ],
+      "producers": [
+        78
+      ],
+      "consumers": [
+        80
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 77
+    },
+    {
+      "idx": 80,
+      "name": "resnetv24_stage3_batchnorm1_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage3_conv0_fwd",
+        "resnetv24_stage3_batchnorm1_gamma",
+        "resnetv24_stage3_batchnorm1_beta",
+        "resnetv24_stage3_batchnorm1_running_mean",
+        "resnetv24_stage3_batchnorm1_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage3_batchnorm1_fwd"
+      ],
+      "producers": [
+        79
+      ],
+      "consumers": [
+        81
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 78
+    },
+    {
+      "idx": 81,
+      "name": "resnetv24_stage3_activation1",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage3_batchnorm1_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage3_activation1"
+      ],
+      "producers": [
+        80
+      ],
+      "consumers": [
+        82
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 79
+    },
+    {
+      "idx": 82,
+      "name": "resnetv24_stage3_conv1_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage3_activation1",
+        "resnetv24_stage3_conv1_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage3_conv1_fwd"
+      ],
+      "producers": [
+        81
+      ],
+      "consumers": [
+        83
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 80
+    },
+    {
+      "idx": 83,
+      "name": "resnetv24_stage3_batchnorm2_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage3_conv1_fwd",
+        "resnetv24_stage3_batchnorm2_gamma",
+        "resnetv24_stage3_batchnorm2_beta",
+        "resnetv24_stage3_batchnorm2_running_mean",
+        "resnetv24_stage3_batchnorm2_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage3_batchnorm2_fwd"
+      ],
+      "producers": [
+        82
+      ],
+      "consumers": [
+        84
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 81
+    },
+    {
+      "idx": 84,
+      "name": "resnetv24_stage3_activation2",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage3_batchnorm2_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage3_activation2"
+      ],
+      "producers": [
+        83
+      ],
+      "consumers": [
+        85
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 82
+    },
+    {
+      "idx": 85,
+      "name": "resnetv24_stage3_conv2_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage3_activation2",
+        "resnetv24_stage3_conv2_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage3_conv2_fwd"
+      ],
+      "producers": [
+        84
+      ],
+      "consumers": [
+        87
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 83
+    },
+    {
+      "idx": 86,
+      "name": "resnetv24_stage3_conv3_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage3_activation0",
+        "resnetv24_stage3_conv3_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage3_conv3_fwd"
+      ],
+      "producers": [
+        78
+      ],
+      "consumers": [
+        87
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 77
+    },
+    {
+      "idx": 87,
+      "name": "resnetv24_stage3__plus0",
+      "op_type": "Add",
+      "inputs": [
+        "resnetv24_stage3_conv2_fwd",
+        "resnetv24_stage3_conv3_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage3__plus0"
+      ],
+      "producers": [
+        85,
+        86
+      ],
+      "consumers": [
+        88,
+        97
+      ],
+      "fanin_from_nodes": 2,
+      "fanout": 2,
+      "level": 84
+    },
+    {
+      "idx": 88,
+      "name": "resnetv24_stage3_batchnorm3_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage3__plus0",
+        "resnetv24_stage3_batchnorm3_gamma",
+        "resnetv24_stage3_batchnorm3_beta",
+        "resnetv24_stage3_batchnorm3_running_mean",
+        "resnetv24_stage3_batchnorm3_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage3_batchnorm3_fwd"
+      ],
+      "producers": [
+        87
+      ],
+      "consumers": [
+        89
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 85
+    },
+    {
+      "idx": 89,
+      "name": "resnetv24_stage3_activation3",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage3_batchnorm3_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage3_activation3"
+      ],
+      "producers": [
+        88
+      ],
+      "consumers": [
+        90
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 86
+    },
+    {
+      "idx": 90,
+      "name": "resnetv24_stage3_conv4_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage3_activation3",
+        "resnetv24_stage3_conv4_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage3_conv4_fwd"
+      ],
+      "producers": [
+        89
+      ],
+      "consumers": [
+        91
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 87
+    },
+    {
+      "idx": 91,
+      "name": "resnetv24_stage3_batchnorm4_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage3_conv4_fwd",
+        "resnetv24_stage3_batchnorm4_gamma",
+        "resnetv24_stage3_batchnorm4_beta",
+        "resnetv24_stage3_batchnorm4_running_mean",
+        "resnetv24_stage3_batchnorm4_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage3_batchnorm4_fwd"
+      ],
+      "producers": [
+        90
+      ],
+      "consumers": [
+        92
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 88
+    },
+    {
+      "idx": 92,
+      "name": "resnetv24_stage3_activation4",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage3_batchnorm4_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage3_activation4"
+      ],
+      "producers": [
+        91
+      ],
+      "consumers": [
+        93
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 89
+    },
+    {
+      "idx": 93,
+      "name": "resnetv24_stage3_conv5_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage3_activation4",
+        "resnetv24_stage3_conv5_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage3_conv5_fwd"
+      ],
+      "producers": [
+        92
+      ],
+      "consumers": [
+        94
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 90
+    },
+    {
+      "idx": 94,
+      "name": "resnetv24_stage3_batchnorm5_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage3_conv5_fwd",
+        "resnetv24_stage3_batchnorm5_gamma",
+        "resnetv24_stage3_batchnorm5_beta",
+        "resnetv24_stage3_batchnorm5_running_mean",
+        "resnetv24_stage3_batchnorm5_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage3_batchnorm5_fwd"
+      ],
+      "producers": [
+        93
+      ],
+      "consumers": [
+        95
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 91
+    },
+    {
+      "idx": 95,
+      "name": "resnetv24_stage3_activation5",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage3_batchnorm5_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage3_activation5"
+      ],
+      "producers": [
+        94
+      ],
+      "consumers": [
+        96
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 92
+    },
+    {
+      "idx": 96,
+      "name": "resnetv24_stage3_conv6_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage3_activation5",
+        "resnetv24_stage3_conv6_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage3_conv6_fwd"
+      ],
+      "producers": [
+        95
+      ],
+      "consumers": [
+        97
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 93
+    },
+    {
+      "idx": 97,
+      "name": "resnetv24_stage3__plus1",
+      "op_type": "Add",
+      "inputs": [
+        "resnetv24_stage3_conv6_fwd",
+        "resnetv24_stage3__plus0"
+      ],
+      "outputs": [
+        "resnetv24_stage3__plus1"
+      ],
+      "producers": [
+        87,
+        96
+      ],
+      "consumers": [
+        98,
+        107
+      ],
+      "fanin_from_nodes": 2,
+      "fanout": 2,
+      "level": 94
+    },
+    {
+      "idx": 98,
+      "name": "resnetv24_stage3_batchnorm6_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage3__plus1",
+        "resnetv24_stage3_batchnorm6_gamma",
+        "resnetv24_stage3_batchnorm6_beta",
+        "resnetv24_stage3_batchnorm6_running_mean",
+        "resnetv24_stage3_batchnorm6_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage3_batchnorm6_fwd"
+      ],
+      "producers": [
+        97
+      ],
+      "consumers": [
+        99
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 95
+    },
+    {
+      "idx": 99,
+      "name": "resnetv24_stage3_activation6",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage3_batchnorm6_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage3_activation6"
+      ],
+      "producers": [
+        98
+      ],
+      "consumers": [
+        100
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 96
+    },
+    {
+      "idx": 100,
+      "name": "resnetv24_stage3_conv7_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage3_activation6",
+        "resnetv24_stage3_conv7_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage3_conv7_fwd"
+      ],
+      "producers": [
+        99
+      ],
+      "consumers": [
+        101
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 97
+    },
+    {
+      "idx": 101,
+      "name": "resnetv24_stage3_batchnorm7_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage3_conv7_fwd",
+        "resnetv24_stage3_batchnorm7_gamma",
+        "resnetv24_stage3_batchnorm7_beta",
+        "resnetv24_stage3_batchnorm7_running_mean",
+        "resnetv24_stage3_batchnorm7_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage3_batchnorm7_fwd"
+      ],
+      "producers": [
+        100
+      ],
+      "consumers": [
+        102
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 98
+    },
+    {
+      "idx": 102,
+      "name": "resnetv24_stage3_activation7",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage3_batchnorm7_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage3_activation7"
+      ],
+      "producers": [
+        101
+      ],
+      "consumers": [
+        103
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 99
+    },
+    {
+      "idx": 103,
+      "name": "resnetv24_stage3_conv8_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage3_activation7",
+        "resnetv24_stage3_conv8_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage3_conv8_fwd"
+      ],
+      "producers": [
+        102
+      ],
+      "consumers": [
+        104
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 100
+    },
+    {
+      "idx": 104,
+      "name": "resnetv24_stage3_batchnorm8_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage3_conv8_fwd",
+        "resnetv24_stage3_batchnorm8_gamma",
+        "resnetv24_stage3_batchnorm8_beta",
+        "resnetv24_stage3_batchnorm8_running_mean",
+        "resnetv24_stage3_batchnorm8_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage3_batchnorm8_fwd"
+      ],
+      "producers": [
+        103
+      ],
+      "consumers": [
+        105
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 101
+    },
+    {
+      "idx": 105,
+      "name": "resnetv24_stage3_activation8",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage3_batchnorm8_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage3_activation8"
+      ],
+      "producers": [
+        104
+      ],
+      "consumers": [
+        106
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 102
+    },
+    {
+      "idx": 106,
+      "name": "resnetv24_stage3_conv9_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage3_activation8",
+        "resnetv24_stage3_conv9_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage3_conv9_fwd"
+      ],
+      "producers": [
+        105
+      ],
+      "consumers": [
+        107
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 103
+    },
+    {
+      "idx": 107,
+      "name": "resnetv24_stage3__plus2",
+      "op_type": "Add",
+      "inputs": [
+        "resnetv24_stage3_conv9_fwd",
+        "resnetv24_stage3__plus1"
+      ],
+      "outputs": [
+        "resnetv24_stage3__plus2"
+      ],
+      "producers": [
+        97,
+        106
+      ],
+      "consumers": [
+        108,
+        117
+      ],
+      "fanin_from_nodes": 2,
+      "fanout": 2,
+      "level": 104
+    },
+    {
+      "idx": 108,
+      "name": "resnetv24_stage3_batchnorm9_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage3__plus2",
+        "resnetv24_stage3_batchnorm9_gamma",
+        "resnetv24_stage3_batchnorm9_beta",
+        "resnetv24_stage3_batchnorm9_running_mean",
+        "resnetv24_stage3_batchnorm9_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage3_batchnorm9_fwd"
+      ],
+      "producers": [
+        107
+      ],
+      "consumers": [
+        109
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 105
+    },
+    {
+      "idx": 109,
+      "name": "resnetv24_stage3_activation9",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage3_batchnorm9_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage3_activation9"
+      ],
+      "producers": [
+        108
+      ],
+      "consumers": [
+        110
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 106
+    },
+    {
+      "idx": 110,
+      "name": "resnetv24_stage3_conv10_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage3_activation9",
+        "resnetv24_stage3_conv10_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage3_conv10_fwd"
+      ],
+      "producers": [
+        109
+      ],
+      "consumers": [
+        111
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 107
+    },
+    {
+      "idx": 111,
+      "name": "resnetv24_stage3_batchnorm10_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage3_conv10_fwd",
+        "resnetv24_stage3_batchnorm10_gamma",
+        "resnetv24_stage3_batchnorm10_beta",
+        "resnetv24_stage3_batchnorm10_running_mean",
+        "resnetv24_stage3_batchnorm10_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage3_batchnorm10_fwd"
+      ],
+      "producers": [
+        110
+      ],
+      "consumers": [
+        112
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 108
+    },
+    {
+      "idx": 112,
+      "name": "resnetv24_stage3_activation10",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage3_batchnorm10_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage3_activation10"
+      ],
+      "producers": [
+        111
+      ],
+      "consumers": [
+        113
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 109
+    },
+    {
+      "idx": 113,
+      "name": "resnetv24_stage3_conv11_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage3_activation10",
+        "resnetv24_stage3_conv11_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage3_conv11_fwd"
+      ],
+      "producers": [
+        112
+      ],
+      "consumers": [
+        114
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 110
+    },
+    {
+      "idx": 114,
+      "name": "resnetv24_stage3_batchnorm11_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage3_conv11_fwd",
+        "resnetv24_stage3_batchnorm11_gamma",
+        "resnetv24_stage3_batchnorm11_beta",
+        "resnetv24_stage3_batchnorm11_running_mean",
+        "resnetv24_stage3_batchnorm11_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage3_batchnorm11_fwd"
+      ],
+      "producers": [
+        113
+      ],
+      "consumers": [
+        115
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 111
+    },
+    {
+      "idx": 115,
+      "name": "resnetv24_stage3_activation11",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage3_batchnorm11_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage3_activation11"
+      ],
+      "producers": [
+        114
+      ],
+      "consumers": [
+        116
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 112
+    },
+    {
+      "idx": 116,
+      "name": "resnetv24_stage3_conv12_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage3_activation11",
+        "resnetv24_stage3_conv12_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage3_conv12_fwd"
+      ],
+      "producers": [
+        115
+      ],
+      "consumers": [
+        117
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 113
+    },
+    {
+      "idx": 117,
+      "name": "resnetv24_stage3__plus3",
+      "op_type": "Add",
+      "inputs": [
+        "resnetv24_stage3_conv12_fwd",
+        "resnetv24_stage3__plus2"
+      ],
+      "outputs": [
+        "resnetv24_stage3__plus3"
+      ],
+      "producers": [
+        107,
+        116
+      ],
+      "consumers": [
+        118,
+        127
+      ],
+      "fanin_from_nodes": 2,
+      "fanout": 2,
+      "level": 114
+    },
+    {
+      "idx": 118,
+      "name": "resnetv24_stage3_batchnorm12_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage3__plus3",
+        "resnetv24_stage3_batchnorm12_gamma",
+        "resnetv24_stage3_batchnorm12_beta",
+        "resnetv24_stage3_batchnorm12_running_mean",
+        "resnetv24_stage3_batchnorm12_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage3_batchnorm12_fwd"
+      ],
+      "producers": [
+        117
+      ],
+      "consumers": [
+        119
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 115
+    },
+    {
+      "idx": 119,
+      "name": "resnetv24_stage3_activation12",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage3_batchnorm12_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage3_activation12"
+      ],
+      "producers": [
+        118
+      ],
+      "consumers": [
+        120
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 116
+    },
+    {
+      "idx": 120,
+      "name": "resnetv24_stage3_conv13_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage3_activation12",
+        "resnetv24_stage3_conv13_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage3_conv13_fwd"
+      ],
+      "producers": [
+        119
+      ],
+      "consumers": [
+        121
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 117
+    },
+    {
+      "idx": 121,
+      "name": "resnetv24_stage3_batchnorm13_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage3_conv13_fwd",
+        "resnetv24_stage3_batchnorm13_gamma",
+        "resnetv24_stage3_batchnorm13_beta",
+        "resnetv24_stage3_batchnorm13_running_mean",
+        "resnetv24_stage3_batchnorm13_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage3_batchnorm13_fwd"
+      ],
+      "producers": [
+        120
+      ],
+      "consumers": [
+        122
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 118
+    },
+    {
+      "idx": 122,
+      "name": "resnetv24_stage3_activation13",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage3_batchnorm13_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage3_activation13"
+      ],
+      "producers": [
+        121
+      ],
+      "consumers": [
+        123
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 119
+    },
+    {
+      "idx": 123,
+      "name": "resnetv24_stage3_conv14_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage3_activation13",
+        "resnetv24_stage3_conv14_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage3_conv14_fwd"
+      ],
+      "producers": [
+        122
+      ],
+      "consumers": [
+        124
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 120
+    },
+    {
+      "idx": 124,
+      "name": "resnetv24_stage3_batchnorm14_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage3_conv14_fwd",
+        "resnetv24_stage3_batchnorm14_gamma",
+        "resnetv24_stage3_batchnorm14_beta",
+        "resnetv24_stage3_batchnorm14_running_mean",
+        "resnetv24_stage3_batchnorm14_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage3_batchnorm14_fwd"
+      ],
+      "producers": [
+        123
+      ],
+      "consumers": [
+        125
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 121
+    },
+    {
+      "idx": 125,
+      "name": "resnetv24_stage3_activation14",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage3_batchnorm14_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage3_activation14"
+      ],
+      "producers": [
+        124
+      ],
+      "consumers": [
+        126
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 122
+    },
+    {
+      "idx": 126,
+      "name": "resnetv24_stage3_conv15_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage3_activation14",
+        "resnetv24_stage3_conv15_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage3_conv15_fwd"
+      ],
+      "producers": [
+        125
+      ],
+      "consumers": [
+        127
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 123
+    },
+    {
+      "idx": 127,
+      "name": "resnetv24_stage3__plus4",
+      "op_type": "Add",
+      "inputs": [
+        "resnetv24_stage3_conv15_fwd",
+        "resnetv24_stage3__plus3"
+      ],
+      "outputs": [
+        "resnetv24_stage3__plus4"
+      ],
+      "producers": [
+        117,
+        126
+      ],
+      "consumers": [
+        128,
+        137
+      ],
+      "fanin_from_nodes": 2,
+      "fanout": 2,
+      "level": 124
+    },
+    {
+      "idx": 128,
+      "name": "resnetv24_stage3_batchnorm15_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage3__plus4",
+        "resnetv24_stage3_batchnorm15_gamma",
+        "resnetv24_stage3_batchnorm15_beta",
+        "resnetv24_stage3_batchnorm15_running_mean",
+        "resnetv24_stage3_batchnorm15_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage3_batchnorm15_fwd"
+      ],
+      "producers": [
+        127
+      ],
+      "consumers": [
+        129
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 125
+    },
+    {
+      "idx": 129,
+      "name": "resnetv24_stage3_activation15",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage3_batchnorm15_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage3_activation15"
+      ],
+      "producers": [
+        128
+      ],
+      "consumers": [
+        130
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 126
+    },
+    {
+      "idx": 130,
+      "name": "resnetv24_stage3_conv16_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage3_activation15",
+        "resnetv24_stage3_conv16_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage3_conv16_fwd"
+      ],
+      "producers": [
+        129
+      ],
+      "consumers": [
+        131
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 127
+    },
+    {
+      "idx": 131,
+      "name": "resnetv24_stage3_batchnorm16_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage3_conv16_fwd",
+        "resnetv24_stage3_batchnorm16_gamma",
+        "resnetv24_stage3_batchnorm16_beta",
+        "resnetv24_stage3_batchnorm16_running_mean",
+        "resnetv24_stage3_batchnorm16_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage3_batchnorm16_fwd"
+      ],
+      "producers": [
+        130
+      ],
+      "consumers": [
+        132
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 128
+    },
+    {
+      "idx": 132,
+      "name": "resnetv24_stage3_activation16",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage3_batchnorm16_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage3_activation16"
+      ],
+      "producers": [
+        131
+      ],
+      "consumers": [
+        133
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 129
+    },
+    {
+      "idx": 133,
+      "name": "resnetv24_stage3_conv17_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage3_activation16",
+        "resnetv24_stage3_conv17_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage3_conv17_fwd"
+      ],
+      "producers": [
+        132
+      ],
+      "consumers": [
+        134
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 130
+    },
+    {
+      "idx": 134,
+      "name": "resnetv24_stage3_batchnorm17_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage3_conv17_fwd",
+        "resnetv24_stage3_batchnorm17_gamma",
+        "resnetv24_stage3_batchnorm17_beta",
+        "resnetv24_stage3_batchnorm17_running_mean",
+        "resnetv24_stage3_batchnorm17_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage3_batchnorm17_fwd"
+      ],
+      "producers": [
+        133
+      ],
+      "consumers": [
+        135
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 131
+    },
+    {
+      "idx": 135,
+      "name": "resnetv24_stage3_activation17",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage3_batchnorm17_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage3_activation17"
+      ],
+      "producers": [
+        134
+      ],
+      "consumers": [
+        136
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 132
+    },
+    {
+      "idx": 136,
+      "name": "resnetv24_stage3_conv18_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage3_activation17",
+        "resnetv24_stage3_conv18_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage3_conv18_fwd"
+      ],
+      "producers": [
+        135
+      ],
+      "consumers": [
+        137
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 133
+    },
+    {
+      "idx": 137,
+      "name": "resnetv24_stage3__plus5",
+      "op_type": "Add",
+      "inputs": [
+        "resnetv24_stage3_conv18_fwd",
+        "resnetv24_stage3__plus4"
+      ],
+      "outputs": [
+        "resnetv24_stage3__plus5"
+      ],
+      "producers": [
+        127,
+        136
+      ],
+      "consumers": [
+        138
+      ],
+      "fanin_from_nodes": 2,
+      "fanout": 1,
+      "level": 134
+    },
+    {
+      "idx": 138,
+      "name": "resnetv24_stage4_batchnorm0_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage3__plus5",
+        "resnetv24_stage4_batchnorm0_gamma",
+        "resnetv24_stage4_batchnorm0_beta",
+        "resnetv24_stage4_batchnorm0_running_mean",
+        "resnetv24_stage4_batchnorm0_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage4_batchnorm0_fwd"
+      ],
+      "producers": [
+        137
+      ],
+      "consumers": [
+        139
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 135
+    },
+    {
+      "idx": 139,
+      "name": "resnetv24_stage4_activation0",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage4_batchnorm0_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage4_activation0"
+      ],
+      "producers": [
+        138
+      ],
+      "consumers": [
+        140,
+        147
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 2,
+      "level": 136
+    },
+    {
+      "idx": 140,
+      "name": "resnetv24_stage4_conv0_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage4_activation0",
+        "resnetv24_stage4_conv0_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage4_conv0_fwd"
+      ],
+      "producers": [
+        139
+      ],
+      "consumers": [
+        141
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 137
+    },
+    {
+      "idx": 141,
+      "name": "resnetv24_stage4_batchnorm1_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage4_conv0_fwd",
+        "resnetv24_stage4_batchnorm1_gamma",
+        "resnetv24_stage4_batchnorm1_beta",
+        "resnetv24_stage4_batchnorm1_running_mean",
+        "resnetv24_stage4_batchnorm1_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage4_batchnorm1_fwd"
+      ],
+      "producers": [
+        140
+      ],
+      "consumers": [
+        142
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 138
+    },
+    {
+      "idx": 142,
+      "name": "resnetv24_stage4_activation1",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage4_batchnorm1_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage4_activation1"
+      ],
+      "producers": [
+        141
+      ],
+      "consumers": [
+        143
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 139
+    },
+    {
+      "idx": 143,
+      "name": "resnetv24_stage4_conv1_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage4_activation1",
+        "resnetv24_stage4_conv1_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage4_conv1_fwd"
+      ],
+      "producers": [
+        142
+      ],
+      "consumers": [
+        144
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 140
+    },
+    {
+      "idx": 144,
+      "name": "resnetv24_stage4_batchnorm2_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage4_conv1_fwd",
+        "resnetv24_stage4_batchnorm2_gamma",
+        "resnetv24_stage4_batchnorm2_beta",
+        "resnetv24_stage4_batchnorm2_running_mean",
+        "resnetv24_stage4_batchnorm2_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage4_batchnorm2_fwd"
+      ],
+      "producers": [
+        143
+      ],
+      "consumers": [
+        145
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 141
+    },
+    {
+      "idx": 145,
+      "name": "resnetv24_stage4_activation2",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage4_batchnorm2_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage4_activation2"
+      ],
+      "producers": [
+        144
+      ],
+      "consumers": [
+        146
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 142
+    },
+    {
+      "idx": 146,
+      "name": "resnetv24_stage4_conv2_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage4_activation2",
+        "resnetv24_stage4_conv2_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage4_conv2_fwd"
+      ],
+      "producers": [
+        145
+      ],
+      "consumers": [
+        148
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 143
+    },
+    {
+      "idx": 147,
+      "name": "resnetv24_stage4_conv3_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage4_activation0",
+        "resnetv24_stage4_conv3_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage4_conv3_fwd"
+      ],
+      "producers": [
+        139
+      ],
+      "consumers": [
+        148
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 137
+    },
+    {
+      "idx": 148,
+      "name": "resnetv24_stage4__plus0",
+      "op_type": "Add",
+      "inputs": [
+        "resnetv24_stage4_conv2_fwd",
+        "resnetv24_stage4_conv3_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage4__plus0"
+      ],
+      "producers": [
+        146,
+        147
+      ],
+      "consumers": [
+        149,
+        158
+      ],
+      "fanin_from_nodes": 2,
+      "fanout": 2,
+      "level": 144
+    },
+    {
+      "idx": 149,
+      "name": "resnetv24_stage4_batchnorm3_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage4__plus0",
+        "resnetv24_stage4_batchnorm3_gamma",
+        "resnetv24_stage4_batchnorm3_beta",
+        "resnetv24_stage4_batchnorm3_running_mean",
+        "resnetv24_stage4_batchnorm3_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage4_batchnorm3_fwd"
+      ],
+      "producers": [
+        148
+      ],
+      "consumers": [
+        150
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 145
+    },
+    {
+      "idx": 150,
+      "name": "resnetv24_stage4_activation3",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage4_batchnorm3_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage4_activation3"
+      ],
+      "producers": [
+        149
+      ],
+      "consumers": [
+        151
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 146
+    },
+    {
+      "idx": 151,
+      "name": "resnetv24_stage4_conv4_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage4_activation3",
+        "resnetv24_stage4_conv4_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage4_conv4_fwd"
+      ],
+      "producers": [
+        150
+      ],
+      "consumers": [
+        152
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 147
+    },
+    {
+      "idx": 152,
+      "name": "resnetv24_stage4_batchnorm4_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage4_conv4_fwd",
+        "resnetv24_stage4_batchnorm4_gamma",
+        "resnetv24_stage4_batchnorm4_beta",
+        "resnetv24_stage4_batchnorm4_running_mean",
+        "resnetv24_stage4_batchnorm4_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage4_batchnorm4_fwd"
+      ],
+      "producers": [
+        151
+      ],
+      "consumers": [
+        153
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 148
+    },
+    {
+      "idx": 153,
+      "name": "resnetv24_stage4_activation4",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage4_batchnorm4_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage4_activation4"
+      ],
+      "producers": [
+        152
+      ],
+      "consumers": [
+        154
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 149
+    },
+    {
+      "idx": 154,
+      "name": "resnetv24_stage4_conv5_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage4_activation4",
+        "resnetv24_stage4_conv5_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage4_conv5_fwd"
+      ],
+      "producers": [
+        153
+      ],
+      "consumers": [
+        155
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 150
+    },
+    {
+      "idx": 155,
+      "name": "resnetv24_stage4_batchnorm5_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage4_conv5_fwd",
+        "resnetv24_stage4_batchnorm5_gamma",
+        "resnetv24_stage4_batchnorm5_beta",
+        "resnetv24_stage4_batchnorm5_running_mean",
+        "resnetv24_stage4_batchnorm5_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage4_batchnorm5_fwd"
+      ],
+      "producers": [
+        154
+      ],
+      "consumers": [
+        156
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 151
+    },
+    {
+      "idx": 156,
+      "name": "resnetv24_stage4_activation5",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage4_batchnorm5_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage4_activation5"
+      ],
+      "producers": [
+        155
+      ],
+      "consumers": [
+        157
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 152
+    },
+    {
+      "idx": 157,
+      "name": "resnetv24_stage4_conv6_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage4_activation5",
+        "resnetv24_stage4_conv6_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage4_conv6_fwd"
+      ],
+      "producers": [
+        156
+      ],
+      "consumers": [
+        158
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 153
+    },
+    {
+      "idx": 158,
+      "name": "resnetv24_stage4__plus1",
+      "op_type": "Add",
+      "inputs": [
+        "resnetv24_stage4_conv6_fwd",
+        "resnetv24_stage4__plus0"
+      ],
+      "outputs": [
+        "resnetv24_stage4__plus1"
+      ],
+      "producers": [
+        148,
+        157
+      ],
+      "consumers": [
+        159,
+        168
+      ],
+      "fanin_from_nodes": 2,
+      "fanout": 2,
+      "level": 154
+    },
+    {
+      "idx": 159,
+      "name": "resnetv24_stage4_batchnorm6_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage4__plus1",
+        "resnetv24_stage4_batchnorm6_gamma",
+        "resnetv24_stage4_batchnorm6_beta",
+        "resnetv24_stage4_batchnorm6_running_mean",
+        "resnetv24_stage4_batchnorm6_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage4_batchnorm6_fwd"
+      ],
+      "producers": [
+        158
+      ],
+      "consumers": [
+        160
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 155
+    },
+    {
+      "idx": 160,
+      "name": "resnetv24_stage4_activation6",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage4_batchnorm6_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage4_activation6"
+      ],
+      "producers": [
+        159
+      ],
+      "consumers": [
+        161
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 156
+    },
+    {
+      "idx": 161,
+      "name": "resnetv24_stage4_conv7_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage4_activation6",
+        "resnetv24_stage4_conv7_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage4_conv7_fwd"
+      ],
+      "producers": [
+        160
+      ],
+      "consumers": [
+        162
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 157
+    },
+    {
+      "idx": 162,
+      "name": "resnetv24_stage4_batchnorm7_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage4_conv7_fwd",
+        "resnetv24_stage4_batchnorm7_gamma",
+        "resnetv24_stage4_batchnorm7_beta",
+        "resnetv24_stage4_batchnorm7_running_mean",
+        "resnetv24_stage4_batchnorm7_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage4_batchnorm7_fwd"
+      ],
+      "producers": [
+        161
+      ],
+      "consumers": [
+        163
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 158
+    },
+    {
+      "idx": 163,
+      "name": "resnetv24_stage4_activation7",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage4_batchnorm7_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage4_activation7"
+      ],
+      "producers": [
+        162
+      ],
+      "consumers": [
+        164
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 159
+    },
+    {
+      "idx": 164,
+      "name": "resnetv24_stage4_conv8_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage4_activation7",
+        "resnetv24_stage4_conv8_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage4_conv8_fwd"
+      ],
+      "producers": [
+        163
+      ],
+      "consumers": [
+        165
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 160
+    },
+    {
+      "idx": 165,
+      "name": "resnetv24_stage4_batchnorm8_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage4_conv8_fwd",
+        "resnetv24_stage4_batchnorm8_gamma",
+        "resnetv24_stage4_batchnorm8_beta",
+        "resnetv24_stage4_batchnorm8_running_mean",
+        "resnetv24_stage4_batchnorm8_running_var"
+      ],
+      "outputs": [
+        "resnetv24_stage4_batchnorm8_fwd"
+      ],
+      "producers": [
+        164
+      ],
+      "consumers": [
+        166
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 161
+    },
+    {
+      "idx": 166,
+      "name": "resnetv24_stage4_activation8",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_stage4_batchnorm8_fwd"
+      ],
+      "outputs": [
+        "resnetv24_stage4_activation8"
+      ],
+      "producers": [
+        165
+      ],
+      "consumers": [
+        167
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 162
+    },
+    {
+      "idx": 167,
+      "name": "resnetv24_stage4_conv9_fwd",
+      "op_type": "Conv",
+      "inputs": [
+        "resnetv24_stage4_activation8",
+        "resnetv24_stage4_conv9_weight"
+      ],
+      "outputs": [
+        "resnetv24_stage4_conv9_fwd"
+      ],
+      "producers": [
+        166
+      ],
+      "consumers": [
+        168
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 163
+    },
+    {
+      "idx": 168,
+      "name": "resnetv24_stage4__plus2",
+      "op_type": "Add",
+      "inputs": [
+        "resnetv24_stage4_conv9_fwd",
+        "resnetv24_stage4__plus1"
+      ],
+      "outputs": [
+        "resnetv24_stage4__plus2"
+      ],
+      "producers": [
+        158,
+        167
+      ],
+      "consumers": [
+        169
+      ],
+      "fanin_from_nodes": 2,
+      "fanout": 1,
+      "level": 164
+    },
+    {
+      "idx": 169,
+      "name": "resnetv24_batchnorm2_fwd",
+      "op_type": "BatchNormalization",
+      "inputs": [
+        "resnetv24_stage4__plus2",
+        "resnetv24_batchnorm2_gamma",
+        "resnetv24_batchnorm2_beta",
+        "resnetv24_batchnorm2_running_mean",
+        "resnetv24_batchnorm2_running_var"
+      ],
+      "outputs": [
+        "resnetv24_batchnorm2_fwd"
+      ],
+      "producers": [
+        168
+      ],
+      "consumers": [
+        170
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 165
+    },
+    {
+      "idx": 170,
+      "name": "resnetv24_relu1_fwd",
+      "op_type": "Relu",
+      "inputs": [
+        "resnetv24_batchnorm2_fwd"
+      ],
+      "outputs": [
+        "resnetv24_relu1_fwd"
+      ],
+      "producers": [
+        169
+      ],
+      "consumers": [
+        171
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 166
+    },
+    {
+      "idx": 171,
+      "name": "resnetv24_pool1_fwd",
+      "op_type": "GlobalAveragePool",
+      "inputs": [
+        "resnetv24_relu1_fwd"
+      ],
+      "outputs": [
+        "resnetv24_pool1_fwd"
+      ],
+      "producers": [
+        170
+      ],
+      "consumers": [
+        172
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 167
+    },
+    {
+      "idx": 172,
+      "name": "resnetv24_flatten0_reshape0",
+      "op_type": "Reshape",
+      "inputs": [
+        "resnetv24_pool1_fwd",
+        "reshape_attr_tensor430"
+      ],
+      "outputs": [
+        "resnetv24_flatten0_reshape0"
+      ],
+      "producers": [
+        171
+      ],
+      "consumers": [
+        173
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 168
+    },
+    {
+      "idx": 173,
+      "name": "resnetv24_dense0_fwd",
+      "op_type": "Gemm",
+      "inputs": [
+        "resnetv24_flatten0_reshape0",
+        "resnetv24_dense0_weight",
+        "resnetv24_dense0_bias"
+      ],
+      "outputs": [
+        "resnetv24_dense0_fwd"
+      ],
+      "producers": [
+        172
+      ],
+      "consumers": [],
+      "fanin_from_nodes": 1,
+      "fanout": 0,
+      "level": 169
+    }
+  ],
+  "edges": [
+    {
+      "src_idx": 0,
+      "dst_idx": 1,
+      "tensors": [
+        "resnetv24_batchnorm0_fwd"
+      ]
+    },
+    {
+      "src_idx": 1,
+      "dst_idx": 2,
+      "tensors": [
+        "resnetv24_conv0_fwd"
+      ]
+    },
+    {
+      "src_idx": 2,
+      "dst_idx": 3,
+      "tensors": [
+        "resnetv24_batchnorm1_fwd"
+      ]
+    },
+    {
+      "src_idx": 3,
+      "dst_idx": 4,
+      "tensors": [
+        "resnetv24_relu0_fwd"
+      ]
+    },
+    {
+      "src_idx": 4,
+      "dst_idx": 5,
+      "tensors": [
+        "resnetv24_pool0_fwd"
+      ]
+    },
+    {
+      "src_idx": 5,
+      "dst_idx": 6,
+      "tensors": [
+        "resnetv24_stage1_batchnorm0_fwd"
+      ]
+    },
+    {
+      "src_idx": 6,
+      "dst_idx": 7,
+      "tensors": [
+        "resnetv24_stage1_activation0"
+      ]
+    },
+    {
+      "src_idx": 6,
+      "dst_idx": 14,
+      "tensors": [
+        "resnetv24_stage1_activation0"
+      ]
+    },
+    {
+      "src_idx": 7,
+      "dst_idx": 8,
+      "tensors": [
+        "resnetv24_stage1_conv0_fwd"
+      ]
+    },
+    {
+      "src_idx": 8,
+      "dst_idx": 9,
+      "tensors": [
+        "resnetv24_stage1_batchnorm1_fwd"
+      ]
+    },
+    {
+      "src_idx": 9,
+      "dst_idx": 10,
+      "tensors": [
+        "resnetv24_stage1_activation1"
+      ]
+    },
+    {
+      "src_idx": 10,
+      "dst_idx": 11,
+      "tensors": [
+        "resnetv24_stage1_conv1_fwd"
+      ]
+    },
+    {
+      "src_idx": 11,
+      "dst_idx": 12,
+      "tensors": [
+        "resnetv24_stage1_batchnorm2_fwd"
+      ]
+    },
+    {
+      "src_idx": 12,
+      "dst_idx": 13,
+      "tensors": [
+        "resnetv24_stage1_activation2"
+      ]
+    },
+    {
+      "src_idx": 13,
+      "dst_idx": 15,
+      "tensors": [
+        "resnetv24_stage1_conv2_fwd"
+      ]
+    },
+    {
+      "src_idx": 14,
+      "dst_idx": 15,
+      "tensors": [
+        "resnetv24_stage1_conv3_fwd"
+      ]
+    },
+    {
+      "src_idx": 15,
+      "dst_idx": 16,
+      "tensors": [
+        "resnetv24_stage1__plus0"
+      ]
+    },
+    {
+      "src_idx": 15,
+      "dst_idx": 25,
+      "tensors": [
+        "resnetv24_stage1__plus0"
+      ]
+    },
+    {
+      "src_idx": 16,
+      "dst_idx": 17,
+      "tensors": [
+        "resnetv24_stage1_batchnorm3_fwd"
+      ]
+    },
+    {
+      "src_idx": 17,
+      "dst_idx": 18,
+      "tensors": [
+        "resnetv24_stage1_activation3"
+      ]
+    },
+    {
+      "src_idx": 18,
+      "dst_idx": 19,
+      "tensors": [
+        "resnetv24_stage1_conv4_fwd"
+      ]
+    },
+    {
+      "src_idx": 19,
+      "dst_idx": 20,
+      "tensors": [
+        "resnetv24_stage1_batchnorm4_fwd"
+      ]
+    },
+    {
+      "src_idx": 20,
+      "dst_idx": 21,
+      "tensors": [
+        "resnetv24_stage1_activation4"
+      ]
+    },
+    {
+      "src_idx": 21,
+      "dst_idx": 22,
+      "tensors": [
+        "resnetv24_stage1_conv5_fwd"
+      ]
+    },
+    {
+      "src_idx": 22,
+      "dst_idx": 23,
+      "tensors": [
+        "resnetv24_stage1_batchnorm5_fwd"
+      ]
+    },
+    {
+      "src_idx": 23,
+      "dst_idx": 24,
+      "tensors": [
+        "resnetv24_stage1_activation5"
+      ]
+    },
+    {
+      "src_idx": 24,
+      "dst_idx": 25,
+      "tensors": [
+        "resnetv24_stage1_conv6_fwd"
+      ]
+    },
+    {
+      "src_idx": 25,
+      "dst_idx": 26,
+      "tensors": [
+        "resnetv24_stage1__plus1"
+      ]
+    },
+    {
+      "src_idx": 25,
+      "dst_idx": 35,
+      "tensors": [
+        "resnetv24_stage1__plus1"
+      ]
+    },
+    {
+      "src_idx": 26,
+      "dst_idx": 27,
+      "tensors": [
+        "resnetv24_stage1_batchnorm6_fwd"
+      ]
+    },
+    {
+      "src_idx": 27,
+      "dst_idx": 28,
+      "tensors": [
+        "resnetv24_stage1_activation6"
+      ]
+    },
+    {
+      "src_idx": 28,
+      "dst_idx": 29,
+      "tensors": [
+        "resnetv24_stage1_conv7_fwd"
+      ]
+    },
+    {
+      "src_idx": 29,
+      "dst_idx": 30,
+      "tensors": [
+        "resnetv24_stage1_batchnorm7_fwd"
+      ]
+    },
+    {
+      "src_idx": 30,
+      "dst_idx": 31,
+      "tensors": [
+        "resnetv24_stage1_activation7"
+      ]
+    },
+    {
+      "src_idx": 31,
+      "dst_idx": 32,
+      "tensors": [
+        "resnetv24_stage1_conv8_fwd"
+      ]
+    },
+    {
+      "src_idx": 32,
+      "dst_idx": 33,
+      "tensors": [
+        "resnetv24_stage1_batchnorm8_fwd"
+      ]
+    },
+    {
+      "src_idx": 33,
+      "dst_idx": 34,
+      "tensors": [
+        "resnetv24_stage1_activation8"
+      ]
+    },
+    {
+      "src_idx": 34,
+      "dst_idx": 35,
+      "tensors": [
+        "resnetv24_stage1_conv9_fwd"
+      ]
+    },
+    {
+      "src_idx": 35,
+      "dst_idx": 36,
+      "tensors": [
+        "resnetv24_stage1__plus2"
+      ]
+    },
+    {
+      "src_idx": 36,
+      "dst_idx": 37,
+      "tensors": [
+        "resnetv24_stage2_batchnorm0_fwd"
+      ]
+    },
+    {
+      "src_idx": 37,
+      "dst_idx": 38,
+      "tensors": [
+        "resnetv24_stage2_activation0"
+      ]
+    },
+    {
+      "src_idx": 37,
+      "dst_idx": 45,
+      "tensors": [
+        "resnetv24_stage2_activation0"
+      ]
+    },
+    {
+      "src_idx": 38,
+      "dst_idx": 39,
+      "tensors": [
+        "resnetv24_stage2_conv0_fwd"
+      ]
+    },
+    {
+      "src_idx": 39,
+      "dst_idx": 40,
+      "tensors": [
+        "resnetv24_stage2_batchnorm1_fwd"
+      ]
+    },
+    {
+      "src_idx": 40,
+      "dst_idx": 41,
+      "tensors": [
+        "resnetv24_stage2_activation1"
+      ]
+    },
+    {
+      "src_idx": 41,
+      "dst_idx": 42,
+      "tensors": [
+        "resnetv24_stage2_conv1_fwd"
+      ]
+    },
+    {
+      "src_idx": 42,
+      "dst_idx": 43,
+      "tensors": [
+        "resnetv24_stage2_batchnorm2_fwd"
+      ]
+    },
+    {
+      "src_idx": 43,
+      "dst_idx": 44,
+      "tensors": [
+        "resnetv24_stage2_activation2"
+      ]
+    },
+    {
+      "src_idx": 44,
+      "dst_idx": 46,
+      "tensors": [
+        "resnetv24_stage2_conv2_fwd"
+      ]
+    },
+    {
+      "src_idx": 45,
+      "dst_idx": 46,
+      "tensors": [
+        "resnetv24_stage2_conv3_fwd"
+      ]
+    },
+    {
+      "src_idx": 46,
+      "dst_idx": 47,
+      "tensors": [
+        "resnetv24_stage2__plus0"
+      ]
+    },
+    {
+      "src_idx": 46,
+      "dst_idx": 56,
+      "tensors": [
+        "resnetv24_stage2__plus0"
+      ]
+    },
+    {
+      "src_idx": 47,
+      "dst_idx": 48,
+      "tensors": [
+        "resnetv24_stage2_batchnorm3_fwd"
+      ]
+    },
+    {
+      "src_idx": 48,
+      "dst_idx": 49,
+      "tensors": [
+        "resnetv24_stage2_activation3"
+      ]
+    },
+    {
+      "src_idx": 49,
+      "dst_idx": 50,
+      "tensors": [
+        "resnetv24_stage2_conv4_fwd"
+      ]
+    },
+    {
+      "src_idx": 50,
+      "dst_idx": 51,
+      "tensors": [
+        "resnetv24_stage2_batchnorm4_fwd"
+      ]
+    },
+    {
+      "src_idx": 51,
+      "dst_idx": 52,
+      "tensors": [
+        "resnetv24_stage2_activation4"
+      ]
+    },
+    {
+      "src_idx": 52,
+      "dst_idx": 53,
+      "tensors": [
+        "resnetv24_stage2_conv5_fwd"
+      ]
+    },
+    {
+      "src_idx": 53,
+      "dst_idx": 54,
+      "tensors": [
+        "resnetv24_stage2_batchnorm5_fwd"
+      ]
+    },
+    {
+      "src_idx": 54,
+      "dst_idx": 55,
+      "tensors": [
+        "resnetv24_stage2_activation5"
+      ]
+    },
+    {
+      "src_idx": 55,
+      "dst_idx": 56,
+      "tensors": [
+        "resnetv24_stage2_conv6_fwd"
+      ]
+    },
+    {
+      "src_idx": 56,
+      "dst_idx": 57,
+      "tensors": [
+        "resnetv24_stage2__plus1"
+      ]
+    },
+    {
+      "src_idx": 56,
+      "dst_idx": 66,
+      "tensors": [
+        "resnetv24_stage2__plus1"
+      ]
+    },
+    {
+      "src_idx": 57,
+      "dst_idx": 58,
+      "tensors": [
+        "resnetv24_stage2_batchnorm6_fwd"
+      ]
+    },
+    {
+      "src_idx": 58,
+      "dst_idx": 59,
+      "tensors": [
+        "resnetv24_stage2_activation6"
+      ]
+    },
+    {
+      "src_idx": 59,
+      "dst_idx": 60,
+      "tensors": [
+        "resnetv24_stage2_conv7_fwd"
+      ]
+    },
+    {
+      "src_idx": 60,
+      "dst_idx": 61,
+      "tensors": [
+        "resnetv24_stage2_batchnorm7_fwd"
+      ]
+    },
+    {
+      "src_idx": 61,
+      "dst_idx": 62,
+      "tensors": [
+        "resnetv24_stage2_activation7"
+      ]
+    },
+    {
+      "src_idx": 62,
+      "dst_idx": 63,
+      "tensors": [
+        "resnetv24_stage2_conv8_fwd"
+      ]
+    },
+    {
+      "src_idx": 63,
+      "dst_idx": 64,
+      "tensors": [
+        "resnetv24_stage2_batchnorm8_fwd"
+      ]
+    },
+    {
+      "src_idx": 64,
+      "dst_idx": 65,
+      "tensors": [
+        "resnetv24_stage2_activation8"
+      ]
+    },
+    {
+      "src_idx": 65,
+      "dst_idx": 66,
+      "tensors": [
+        "resnetv24_stage2_conv9_fwd"
+      ]
+    },
+    {
+      "src_idx": 66,
+      "dst_idx": 67,
+      "tensors": [
+        "resnetv24_stage2__plus2"
+      ]
+    },
+    {
+      "src_idx": 66,
+      "dst_idx": 76,
+      "tensors": [
+        "resnetv24_stage2__plus2"
+      ]
+    },
+    {
+      "src_idx": 67,
+      "dst_idx": 68,
+      "tensors": [
+        "resnetv24_stage2_batchnorm9_fwd"
+      ]
+    },
+    {
+      "src_idx": 68,
+      "dst_idx": 69,
+      "tensors": [
+        "resnetv24_stage2_activation9"
+      ]
+    },
+    {
+      "src_idx": 69,
+      "dst_idx": 70,
+      "tensors": [
+        "resnetv24_stage2_conv10_fwd"
+      ]
+    },
+    {
+      "src_idx": 70,
+      "dst_idx": 71,
+      "tensors": [
+        "resnetv24_stage2_batchnorm10_fwd"
+      ]
+    },
+    {
+      "src_idx": 71,
+      "dst_idx": 72,
+      "tensors": [
+        "resnetv24_stage2_activation10"
+      ]
+    },
+    {
+      "src_idx": 72,
+      "dst_idx": 73,
+      "tensors": [
+        "resnetv24_stage2_conv11_fwd"
+      ]
+    },
+    {
+      "src_idx": 73,
+      "dst_idx": 74,
+      "tensors": [
+        "resnetv24_stage2_batchnorm11_fwd"
+      ]
+    },
+    {
+      "src_idx": 74,
+      "dst_idx": 75,
+      "tensors": [
+        "resnetv24_stage2_activation11"
+      ]
+    },
+    {
+      "src_idx": 75,
+      "dst_idx": 76,
+      "tensors": [
+        "resnetv24_stage2_conv12_fwd"
+      ]
+    },
+    {
+      "src_idx": 76,
+      "dst_idx": 77,
+      "tensors": [
+        "resnetv24_stage2__plus3"
+      ]
+    },
+    {
+      "src_idx": 77,
+      "dst_idx": 78,
+      "tensors": [
+        "resnetv24_stage3_batchnorm0_fwd"
+      ]
+    },
+    {
+      "src_idx": 78,
+      "dst_idx": 79,
+      "tensors": [
+        "resnetv24_stage3_activation0"
+      ]
+    },
+    {
+      "src_idx": 78,
+      "dst_idx": 86,
+      "tensors": [
+        "resnetv24_stage3_activation0"
+      ]
+    },
+    {
+      "src_idx": 79,
+      "dst_idx": 80,
+      "tensors": [
+        "resnetv24_stage3_conv0_fwd"
+      ]
+    },
+    {
+      "src_idx": 80,
+      "dst_idx": 81,
+      "tensors": [
+        "resnetv24_stage3_batchnorm1_fwd"
+      ]
+    },
+    {
+      "src_idx": 81,
+      "dst_idx": 82,
+      "tensors": [
+        "resnetv24_stage3_activation1"
+      ]
+    },
+    {
+      "src_idx": 82,
+      "dst_idx": 83,
+      "tensors": [
+        "resnetv24_stage3_conv1_fwd"
+      ]
+    },
+    {
+      "src_idx": 83,
+      "dst_idx": 84,
+      "tensors": [
+        "resnetv24_stage3_batchnorm2_fwd"
+      ]
+    },
+    {
+      "src_idx": 84,
+      "dst_idx": 85,
+      "tensors": [
+        "resnetv24_stage3_activation2"
+      ]
+    },
+    {
+      "src_idx": 85,
+      "dst_idx": 87,
+      "tensors": [
+        "resnetv24_stage3_conv2_fwd"
+      ]
+    },
+    {
+      "src_idx": 86,
+      "dst_idx": 87,
+      "tensors": [
+        "resnetv24_stage3_conv3_fwd"
+      ]
+    },
+    {
+      "src_idx": 87,
+      "dst_idx": 88,
+      "tensors": [
+        "resnetv24_stage3__plus0"
+      ]
+    },
+    {
+      "src_idx": 87,
+      "dst_idx": 97,
+      "tensors": [
+        "resnetv24_stage3__plus0"
+      ]
+    },
+    {
+      "src_idx": 88,
+      "dst_idx": 89,
+      "tensors": [
+        "resnetv24_stage3_batchnorm3_fwd"
+      ]
+    },
+    {
+      "src_idx": 89,
+      "dst_idx": 90,
+      "tensors": [
+        "resnetv24_stage3_activation3"
+      ]
+    },
+    {
+      "src_idx": 90,
+      "dst_idx": 91,
+      "tensors": [
+        "resnetv24_stage3_conv4_fwd"
+      ]
+    },
+    {
+      "src_idx": 91,
+      "dst_idx": 92,
+      "tensors": [
+        "resnetv24_stage3_batchnorm4_fwd"
+      ]
+    },
+    {
+      "src_idx": 92,
+      "dst_idx": 93,
+      "tensors": [
+        "resnetv24_stage3_activation4"
+      ]
+    },
+    {
+      "src_idx": 93,
+      "dst_idx": 94,
+      "tensors": [
+        "resnetv24_stage3_conv5_fwd"
+      ]
+    },
+    {
+      "src_idx": 94,
+      "dst_idx": 95,
+      "tensors": [
+        "resnetv24_stage3_batchnorm5_fwd"
+      ]
+    },
+    {
+      "src_idx": 95,
+      "dst_idx": 96,
+      "tensors": [
+        "resnetv24_stage3_activation5"
+      ]
+    },
+    {
+      "src_idx": 96,
+      "dst_idx": 97,
+      "tensors": [
+        "resnetv24_stage3_conv6_fwd"
+      ]
+    },
+    {
+      "src_idx": 97,
+      "dst_idx": 98,
+      "tensors": [
+        "resnetv24_stage3__plus1"
+      ]
+    },
+    {
+      "src_idx": 97,
+      "dst_idx": 107,
+      "tensors": [
+        "resnetv24_stage3__plus1"
+      ]
+    },
+    {
+      "src_idx": 98,
+      "dst_idx": 99,
+      "tensors": [
+        "resnetv24_stage3_batchnorm6_fwd"
+      ]
+    },
+    {
+      "src_idx": 99,
+      "dst_idx": 100,
+      "tensors": [
+        "resnetv24_stage3_activation6"
+      ]
+    },
+    {
+      "src_idx": 100,
+      "dst_idx": 101,
+      "tensors": [
+        "resnetv24_stage3_conv7_fwd"
+      ]
+    },
+    {
+      "src_idx": 101,
+      "dst_idx": 102,
+      "tensors": [
+        "resnetv24_stage3_batchnorm7_fwd"
+      ]
+    },
+    {
+      "src_idx": 102,
+      "dst_idx": 103,
+      "tensors": [
+        "resnetv24_stage3_activation7"
+      ]
+    },
+    {
+      "src_idx": 103,
+      "dst_idx": 104,
+      "tensors": [
+        "resnetv24_stage3_conv8_fwd"
+      ]
+    },
+    {
+      "src_idx": 104,
+      "dst_idx": 105,
+      "tensors": [
+        "resnetv24_stage3_batchnorm8_fwd"
+      ]
+    },
+    {
+      "src_idx": 105,
+      "dst_idx": 106,
+      "tensors": [
+        "resnetv24_stage3_activation8"
+      ]
+    },
+    {
+      "src_idx": 106,
+      "dst_idx": 107,
+      "tensors": [
+        "resnetv24_stage3_conv9_fwd"
+      ]
+    },
+    {
+      "src_idx": 107,
+      "dst_idx": 108,
+      "tensors": [
+        "resnetv24_stage3__plus2"
+      ]
+    },
+    {
+      "src_idx": 107,
+      "dst_idx": 117,
+      "tensors": [
+        "resnetv24_stage3__plus2"
+      ]
+    },
+    {
+      "src_idx": 108,
+      "dst_idx": 109,
+      "tensors": [
+        "resnetv24_stage3_batchnorm9_fwd"
+      ]
+    },
+    {
+      "src_idx": 109,
+      "dst_idx": 110,
+      "tensors": [
+        "resnetv24_stage3_activation9"
+      ]
+    },
+    {
+      "src_idx": 110,
+      "dst_idx": 111,
+      "tensors": [
+        "resnetv24_stage3_conv10_fwd"
+      ]
+    },
+    {
+      "src_idx": 111,
+      "dst_idx": 112,
+      "tensors": [
+        "resnetv24_stage3_batchnorm10_fwd"
+      ]
+    },
+    {
+      "src_idx": 112,
+      "dst_idx": 113,
+      "tensors": [
+        "resnetv24_stage3_activation10"
+      ]
+    },
+    {
+      "src_idx": 113,
+      "dst_idx": 114,
+      "tensors": [
+        "resnetv24_stage3_conv11_fwd"
+      ]
+    },
+    {
+      "src_idx": 114,
+      "dst_idx": 115,
+      "tensors": [
+        "resnetv24_stage3_batchnorm11_fwd"
+      ]
+    },
+    {
+      "src_idx": 115,
+      "dst_idx": 116,
+      "tensors": [
+        "resnetv24_stage3_activation11"
+      ]
+    },
+    {
+      "src_idx": 116,
+      "dst_idx": 117,
+      "tensors": [
+        "resnetv24_stage3_conv12_fwd"
+      ]
+    },
+    {
+      "src_idx": 117,
+      "dst_idx": 118,
+      "tensors": [
+        "resnetv24_stage3__plus3"
+      ]
+    },
+    {
+      "src_idx": 117,
+      "dst_idx": 127,
+      "tensors": [
+        "resnetv24_stage3__plus3"
+      ]
+    },
+    {
+      "src_idx": 118,
+      "dst_idx": 119,
+      "tensors": [
+        "resnetv24_stage3_batchnorm12_fwd"
+      ]
+    },
+    {
+      "src_idx": 119,
+      "dst_idx": 120,
+      "tensors": [
+        "resnetv24_stage3_activation12"
+      ]
+    },
+    {
+      "src_idx": 120,
+      "dst_idx": 121,
+      "tensors": [
+        "resnetv24_stage3_conv13_fwd"
+      ]
+    },
+    {
+      "src_idx": 121,
+      "dst_idx": 122,
+      "tensors": [
+        "resnetv24_stage3_batchnorm13_fwd"
+      ]
+    },
+    {
+      "src_idx": 122,
+      "dst_idx": 123,
+      "tensors": [
+        "resnetv24_stage3_activation13"
+      ]
+    },
+    {
+      "src_idx": 123,
+      "dst_idx": 124,
+      "tensors": [
+        "resnetv24_stage3_conv14_fwd"
+      ]
+    },
+    {
+      "src_idx": 124,
+      "dst_idx": 125,
+      "tensors": [
+        "resnetv24_stage3_batchnorm14_fwd"
+      ]
+    },
+    {
+      "src_idx": 125,
+      "dst_idx": 126,
+      "tensors": [
+        "resnetv24_stage3_activation14"
+      ]
+    },
+    {
+      "src_idx": 126,
+      "dst_idx": 127,
+      "tensors": [
+        "resnetv24_stage3_conv15_fwd"
+      ]
+    },
+    {
+      "src_idx": 127,
+      "dst_idx": 128,
+      "tensors": [
+        "resnetv24_stage3__plus4"
+      ]
+    },
+    {
+      "src_idx": 127,
+      "dst_idx": 137,
+      "tensors": [
+        "resnetv24_stage3__plus4"
+      ]
+    },
+    {
+      "src_idx": 128,
+      "dst_idx": 129,
+      "tensors": [
+        "resnetv24_stage3_batchnorm15_fwd"
+      ]
+    },
+    {
+      "src_idx": 129,
+      "dst_idx": 130,
+      "tensors": [
+        "resnetv24_stage3_activation15"
+      ]
+    },
+    {
+      "src_idx": 130,
+      "dst_idx": 131,
+      "tensors": [
+        "resnetv24_stage3_conv16_fwd"
+      ]
+    },
+    {
+      "src_idx": 131,
+      "dst_idx": 132,
+      "tensors": [
+        "resnetv24_stage3_batchnorm16_fwd"
+      ]
+    },
+    {
+      "src_idx": 132,
+      "dst_idx": 133,
+      "tensors": [
+        "resnetv24_stage3_activation16"
+      ]
+    },
+    {
+      "src_idx": 133,
+      "dst_idx": 134,
+      "tensors": [
+        "resnetv24_stage3_conv17_fwd"
+      ]
+    },
+    {
+      "src_idx": 134,
+      "dst_idx": 135,
+      "tensors": [
+        "resnetv24_stage3_batchnorm17_fwd"
+      ]
+    },
+    {
+      "src_idx": 135,
+      "dst_idx": 136,
+      "tensors": [
+        "resnetv24_stage3_activation17"
+      ]
+    },
+    {
+      "src_idx": 136,
+      "dst_idx": 137,
+      "tensors": [
+        "resnetv24_stage3_conv18_fwd"
+      ]
+    },
+    {
+      "src_idx": 137,
+      "dst_idx": 138,
+      "tensors": [
+        "resnetv24_stage3__plus5"
+      ]
+    },
+    {
+      "src_idx": 138,
+      "dst_idx": 139,
+      "tensors": [
+        "resnetv24_stage4_batchnorm0_fwd"
+      ]
+    },
+    {
+      "src_idx": 139,
+      "dst_idx": 140,
+      "tensors": [
+        "resnetv24_stage4_activation0"
+      ]
+    },
+    {
+      "src_idx": 139,
+      "dst_idx": 147,
+      "tensors": [
+        "resnetv24_stage4_activation0"
+      ]
+    },
+    {
+      "src_idx": 140,
+      "dst_idx": 141,
+      "tensors": [
+        "resnetv24_stage4_conv0_fwd"
+      ]
+    },
+    {
+      "src_idx": 141,
+      "dst_idx": 142,
+      "tensors": [
+        "resnetv24_stage4_batchnorm1_fwd"
+      ]
+    },
+    {
+      "src_idx": 142,
+      "dst_idx": 143,
+      "tensors": [
+        "resnetv24_stage4_activation1"
+      ]
+    },
+    {
+      "src_idx": 143,
+      "dst_idx": 144,
+      "tensors": [
+        "resnetv24_stage4_conv1_fwd"
+      ]
+    },
+    {
+      "src_idx": 144,
+      "dst_idx": 145,
+      "tensors": [
+        "resnetv24_stage4_batchnorm2_fwd"
+      ]
+    },
+    {
+      "src_idx": 145,
+      "dst_idx": 146,
+      "tensors": [
+        "resnetv24_stage4_activation2"
+      ]
+    },
+    {
+      "src_idx": 146,
+      "dst_idx": 148,
+      "tensors": [
+        "resnetv24_stage4_conv2_fwd"
+      ]
+    },
+    {
+      "src_idx": 147,
+      "dst_idx": 148,
+      "tensors": [
+        "resnetv24_stage4_conv3_fwd"
+      ]
+    },
+    {
+      "src_idx": 148,
+      "dst_idx": 149,
+      "tensors": [
+        "resnetv24_stage4__plus0"
+      ]
+    },
+    {
+      "src_idx": 148,
+      "dst_idx": 158,
+      "tensors": [
+        "resnetv24_stage4__plus0"
+      ]
+    },
+    {
+      "src_idx": 149,
+      "dst_idx": 150,
+      "tensors": [
+        "resnetv24_stage4_batchnorm3_fwd"
+      ]
+    },
+    {
+      "src_idx": 150,
+      "dst_idx": 151,
+      "tensors": [
+        "resnetv24_stage4_activation3"
+      ]
+    },
+    {
+      "src_idx": 151,
+      "dst_idx": 152,
+      "tensors": [
+        "resnetv24_stage4_conv4_fwd"
+      ]
+    },
+    {
+      "src_idx": 152,
+      "dst_idx": 153,
+      "tensors": [
+        "resnetv24_stage4_batchnorm4_fwd"
+      ]
+    },
+    {
+      "src_idx": 153,
+      "dst_idx": 154,
+      "tensors": [
+        "resnetv24_stage4_activation4"
+      ]
+    },
+    {
+      "src_idx": 154,
+      "dst_idx": 155,
+      "tensors": [
+        "resnetv24_stage4_conv5_fwd"
+      ]
+    },
+    {
+      "src_idx": 155,
+      "dst_idx": 156,
+      "tensors": [
+        "resnetv24_stage4_batchnorm5_fwd"
+      ]
+    },
+    {
+      "src_idx": 156,
+      "dst_idx": 157,
+      "tensors": [
+        "resnetv24_stage4_activation5"
+      ]
+    },
+    {
+      "src_idx": 157,
+      "dst_idx": 158,
+      "tensors": [
+        "resnetv24_stage4_conv6_fwd"
+      ]
+    },
+    {
+      "src_idx": 158,
+      "dst_idx": 159,
+      "tensors": [
+        "resnetv24_stage4__plus1"
+      ]
+    },
+    {
+      "src_idx": 158,
+      "dst_idx": 168,
+      "tensors": [
+        "resnetv24_stage4__plus1"
+      ]
+    },
+    {
+      "src_idx": 159,
+      "dst_idx": 160,
+      "tensors": [
+        "resnetv24_stage4_batchnorm6_fwd"
+      ]
+    },
+    {
+      "src_idx": 160,
+      "dst_idx": 161,
+      "tensors": [
+        "resnetv24_stage4_activation6"
+      ]
+    },
+    {
+      "src_idx": 161,
+      "dst_idx": 162,
+      "tensors": [
+        "resnetv24_stage4_conv7_fwd"
+      ]
+    },
+    {
+      "src_idx": 162,
+      "dst_idx": 163,
+      "tensors": [
+        "resnetv24_stage4_batchnorm7_fwd"
+      ]
+    },
+    {
+      "src_idx": 163,
+      "dst_idx": 164,
+      "tensors": [
+        "resnetv24_stage4_activation7"
+      ]
+    },
+    {
+      "src_idx": 164,
+      "dst_idx": 165,
+      "tensors": [
+        "resnetv24_stage4_conv8_fwd"
+      ]
+    },
+    {
+      "src_idx": 165,
+      "dst_idx": 166,
+      "tensors": [
+        "resnetv24_stage4_batchnorm8_fwd"
+      ]
+    },
+    {
+      "src_idx": 166,
+      "dst_idx": 167,
+      "tensors": [
+        "resnetv24_stage4_activation8"
+      ]
+    },
+    {
+      "src_idx": 167,
+      "dst_idx": 168,
+      "tensors": [
+        "resnetv24_stage4_conv9_fwd"
+      ]
+    },
+    {
+      "src_idx": 168,
+      "dst_idx": 169,
+      "tensors": [
+        "resnetv24_stage4__plus2"
+      ]
+    },
+    {
+      "src_idx": 169,
+      "dst_idx": 170,
+      "tensors": [
+        "resnetv24_batchnorm2_fwd"
+      ]
+    },
+    {
+      "src_idx": 170,
+      "dst_idx": 171,
+      "tensors": [
+        "resnetv24_relu1_fwd"
+      ]
+    },
+    {
+      "src_idx": 171,
+      "dst_idx": 172,
+      "tensors": [
+        "resnetv24_pool1_fwd"
+      ]
+    },
+    {
+      "src_idx": 172,
+      "dst_idx": 173,
+      "tensors": [
+        "resnetv24_flatten0_reshape0"
+      ]
+    }
+  ]
+}

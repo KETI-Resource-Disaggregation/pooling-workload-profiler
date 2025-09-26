@@ -1,0 +1,1111 @@
+{
+  "model_path": "Extracted from {tf2onnx}",
+  "num_nodes": 36,
+  "levels": [
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      4
+    ],
+    [
+      5
+    ],
+    [
+      6
+    ],
+    [
+      7
+    ],
+    [
+      8
+    ],
+    [
+      9
+    ],
+    [
+      10
+    ],
+    [
+      11
+    ],
+    [
+      12
+    ],
+    [
+      13
+    ],
+    [
+      14
+    ],
+    [
+      15
+    ],
+    [
+      16
+    ],
+    [
+      17
+    ],
+    [
+      18
+    ],
+    [
+      19
+    ],
+    [
+      20
+    ],
+    [
+      21
+    ],
+    [
+      22
+    ],
+    [
+      23
+    ],
+    [
+      24
+    ],
+    [
+      25
+    ],
+    [
+      26
+    ],
+    [
+      27
+    ],
+    [
+      28
+    ],
+    [
+      29
+    ],
+    [
+      30
+    ],
+    [
+      31
+    ],
+    [
+      32
+    ],
+    [
+      33
+    ],
+    [
+      34
+    ],
+    [
+      35
+    ]
+  ],
+  "nodes": [
+    {
+      "idx": 0,
+      "name": "vgg_16/conv1/conv1_1/BiasAdd",
+      "op_type": "Conv",
+      "inputs": [
+        "input:0",
+        "vgg_16/conv1/conv1_1/weights:0",
+        "vgg_16/conv1/conv1_1/biases:0"
+      ],
+      "outputs": [
+        "vgg_16/conv1/conv1_1/BiasAdd:0"
+      ],
+      "producers": [],
+      "consumers": [
+        1
+      ],
+      "fanin_from_nodes": 0,
+      "fanout": 1,
+      "level": 0
+    },
+    {
+      "idx": 1,
+      "name": "vgg_16/conv1/conv1_1/Relu",
+      "op_type": "Relu",
+      "inputs": [
+        "vgg_16/conv1/conv1_1/BiasAdd:0"
+      ],
+      "outputs": [
+        "vgg_16/conv1/conv1_1/Relu:0"
+      ],
+      "producers": [
+        0
+      ],
+      "consumers": [
+        2
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 1
+    },
+    {
+      "idx": 2,
+      "name": "vgg_16/conv1/conv1_2/BiasAdd",
+      "op_type": "Conv",
+      "inputs": [
+        "vgg_16/conv1/conv1_1/Relu:0",
+        "vgg_16/conv1/conv1_2/weights:0",
+        "vgg_16/conv1/conv1_2/biases:0"
+      ],
+      "outputs": [
+        "vgg_16/conv1/conv1_2/BiasAdd:0"
+      ],
+      "producers": [
+        1
+      ],
+      "consumers": [
+        3
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 2
+    },
+    {
+      "idx": 3,
+      "name": "vgg_16/conv1/conv1_2/Relu",
+      "op_type": "Relu",
+      "inputs": [
+        "vgg_16/conv1/conv1_2/BiasAdd:0"
+      ],
+      "outputs": [
+        "vgg_16/conv1/conv1_2/Relu:0"
+      ],
+      "producers": [
+        2
+      ],
+      "consumers": [
+        4
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 3
+    },
+    {
+      "idx": 4,
+      "name": "vgg_16/pool1/MaxPool",
+      "op_type": "MaxPool",
+      "inputs": [
+        "vgg_16/conv1/conv1_2/Relu:0"
+      ],
+      "outputs": [
+        "vgg_16/pool1/MaxPool:0"
+      ],
+      "producers": [
+        3
+      ],
+      "consumers": [
+        5
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 4
+    },
+    {
+      "idx": 5,
+      "name": "vgg_16/conv2/conv2_1/BiasAdd",
+      "op_type": "Conv",
+      "inputs": [
+        "vgg_16/pool1/MaxPool:0",
+        "vgg_16/conv2/conv2_1/weights:0",
+        "vgg_16/conv2/conv2_1/biases:0"
+      ],
+      "outputs": [
+        "vgg_16/conv2/conv2_1/BiasAdd:0"
+      ],
+      "producers": [
+        4
+      ],
+      "consumers": [
+        6
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 5
+    },
+    {
+      "idx": 6,
+      "name": "vgg_16/conv2/conv2_1/Relu",
+      "op_type": "Relu",
+      "inputs": [
+        "vgg_16/conv2/conv2_1/BiasAdd:0"
+      ],
+      "outputs": [
+        "vgg_16/conv2/conv2_1/Relu:0"
+      ],
+      "producers": [
+        5
+      ],
+      "consumers": [
+        7
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 6
+    },
+    {
+      "idx": 7,
+      "name": "vgg_16/conv2/conv2_2/BiasAdd",
+      "op_type": "Conv",
+      "inputs": [
+        "vgg_16/conv2/conv2_1/Relu:0",
+        "vgg_16/conv2/conv2_2/weights:0",
+        "vgg_16/conv2/conv2_2/biases:0"
+      ],
+      "outputs": [
+        "vgg_16/conv2/conv2_2/BiasAdd:0"
+      ],
+      "producers": [
+        6
+      ],
+      "consumers": [
+        8
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 7
+    },
+    {
+      "idx": 8,
+      "name": "vgg_16/conv2/conv2_2/Relu",
+      "op_type": "Relu",
+      "inputs": [
+        "vgg_16/conv2/conv2_2/BiasAdd:0"
+      ],
+      "outputs": [
+        "vgg_16/conv2/conv2_2/Relu:0"
+      ],
+      "producers": [
+        7
+      ],
+      "consumers": [
+        9
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 8
+    },
+    {
+      "idx": 9,
+      "name": "vgg_16/pool2/MaxPool",
+      "op_type": "MaxPool",
+      "inputs": [
+        "vgg_16/conv2/conv2_2/Relu:0"
+      ],
+      "outputs": [
+        "vgg_16/pool2/MaxPool:0"
+      ],
+      "producers": [
+        8
+      ],
+      "consumers": [
+        10
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 9
+    },
+    {
+      "idx": 10,
+      "name": "vgg_16/conv3/conv3_1/BiasAdd",
+      "op_type": "Conv",
+      "inputs": [
+        "vgg_16/pool2/MaxPool:0",
+        "vgg_16/conv3/conv3_1/weights:0",
+        "vgg_16/conv3/conv3_1/biases:0"
+      ],
+      "outputs": [
+        "vgg_16/conv3/conv3_1/BiasAdd:0"
+      ],
+      "producers": [
+        9
+      ],
+      "consumers": [
+        11
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 10
+    },
+    {
+      "idx": 11,
+      "name": "vgg_16/conv3/conv3_1/Relu",
+      "op_type": "Relu",
+      "inputs": [
+        "vgg_16/conv3/conv3_1/BiasAdd:0"
+      ],
+      "outputs": [
+        "vgg_16/conv3/conv3_1/Relu:0"
+      ],
+      "producers": [
+        10
+      ],
+      "consumers": [
+        12
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 11
+    },
+    {
+      "idx": 12,
+      "name": "vgg_16/conv3/conv3_2/BiasAdd",
+      "op_type": "Conv",
+      "inputs": [
+        "vgg_16/conv3/conv3_1/Relu:0",
+        "vgg_16/conv3/conv3_2/weights:0",
+        "vgg_16/conv3/conv3_2/biases:0"
+      ],
+      "outputs": [
+        "vgg_16/conv3/conv3_2/BiasAdd:0"
+      ],
+      "producers": [
+        11
+      ],
+      "consumers": [
+        13
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 12
+    },
+    {
+      "idx": 13,
+      "name": "vgg_16/conv3/conv3_2/Relu",
+      "op_type": "Relu",
+      "inputs": [
+        "vgg_16/conv3/conv3_2/BiasAdd:0"
+      ],
+      "outputs": [
+        "vgg_16/conv3/conv3_2/Relu:0"
+      ],
+      "producers": [
+        12
+      ],
+      "consumers": [
+        14
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 13
+    },
+    {
+      "idx": 14,
+      "name": "vgg_16/conv3/conv3_3/BiasAdd",
+      "op_type": "Conv",
+      "inputs": [
+        "vgg_16/conv3/conv3_2/Relu:0",
+        "vgg_16/conv3/conv3_3/weights:0",
+        "vgg_16/conv3/conv3_3/biases:0"
+      ],
+      "outputs": [
+        "vgg_16/conv3/conv3_3/BiasAdd:0"
+      ],
+      "producers": [
+        13
+      ],
+      "consumers": [
+        15
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 14
+    },
+    {
+      "idx": 15,
+      "name": "vgg_16/conv3/conv3_3/Relu",
+      "op_type": "Relu",
+      "inputs": [
+        "vgg_16/conv3/conv3_3/BiasAdd:0"
+      ],
+      "outputs": [
+        "vgg_16/conv3/conv3_3/Relu:0"
+      ],
+      "producers": [
+        14
+      ],
+      "consumers": [
+        16
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 15
+    },
+    {
+      "idx": 16,
+      "name": "vgg_16/pool3/MaxPool",
+      "op_type": "MaxPool",
+      "inputs": [
+        "vgg_16/conv3/conv3_3/Relu:0"
+      ],
+      "outputs": [
+        "vgg_16/pool3/MaxPool:0"
+      ],
+      "producers": [
+        15
+      ],
+      "consumers": [
+        17
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 16
+    },
+    {
+      "idx": 17,
+      "name": "vgg_16/conv4/conv4_1/BiasAdd",
+      "op_type": "Conv",
+      "inputs": [
+        "vgg_16/pool3/MaxPool:0",
+        "vgg_16/conv4/conv4_1/weights:0",
+        "vgg_16/conv4/conv4_1/biases:0"
+      ],
+      "outputs": [
+        "vgg_16/conv4/conv4_1/BiasAdd:0"
+      ],
+      "producers": [
+        16
+      ],
+      "consumers": [
+        18
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 17
+    },
+    {
+      "idx": 18,
+      "name": "vgg_16/conv4/conv4_1/Relu",
+      "op_type": "Relu",
+      "inputs": [
+        "vgg_16/conv4/conv4_1/BiasAdd:0"
+      ],
+      "outputs": [
+        "vgg_16/conv4/conv4_1/Relu:0"
+      ],
+      "producers": [
+        17
+      ],
+      "consumers": [
+        19
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 18
+    },
+    {
+      "idx": 19,
+      "name": "vgg_16/conv4/conv4_2/BiasAdd",
+      "op_type": "Conv",
+      "inputs": [
+        "vgg_16/conv4/conv4_1/Relu:0",
+        "vgg_16/conv4/conv4_2/weights:0",
+        "vgg_16/conv4/conv4_2/biases:0"
+      ],
+      "outputs": [
+        "vgg_16/conv4/conv4_2/BiasAdd:0"
+      ],
+      "producers": [
+        18
+      ],
+      "consumers": [
+        20
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 19
+    },
+    {
+      "idx": 20,
+      "name": "vgg_16/conv4/conv4_2/Relu",
+      "op_type": "Relu",
+      "inputs": [
+        "vgg_16/conv4/conv4_2/BiasAdd:0"
+      ],
+      "outputs": [
+        "vgg_16/conv4/conv4_2/Relu:0"
+      ],
+      "producers": [
+        19
+      ],
+      "consumers": [
+        21
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 20
+    },
+    {
+      "idx": 21,
+      "name": "vgg_16/conv4/conv4_3/BiasAdd",
+      "op_type": "Conv",
+      "inputs": [
+        "vgg_16/conv4/conv4_2/Relu:0",
+        "vgg_16/conv4/conv4_3/weights:0",
+        "vgg_16/conv4/conv4_3/biases:0"
+      ],
+      "outputs": [
+        "vgg_16/conv4/conv4_3/BiasAdd:0"
+      ],
+      "producers": [
+        20
+      ],
+      "consumers": [
+        22
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 21
+    },
+    {
+      "idx": 22,
+      "name": "vgg_16/conv4/conv4_3/Relu",
+      "op_type": "Relu",
+      "inputs": [
+        "vgg_16/conv4/conv4_3/BiasAdd:0"
+      ],
+      "outputs": [
+        "vgg_16/conv4/conv4_3/Relu:0"
+      ],
+      "producers": [
+        21
+      ],
+      "consumers": [
+        23
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 22
+    },
+    {
+      "idx": 23,
+      "name": "vgg_16/pool4/MaxPool",
+      "op_type": "MaxPool",
+      "inputs": [
+        "vgg_16/conv4/conv4_3/Relu:0"
+      ],
+      "outputs": [
+        "vgg_16/pool4/MaxPool:0"
+      ],
+      "producers": [
+        22
+      ],
+      "consumers": [
+        24
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 23
+    },
+    {
+      "idx": 24,
+      "name": "vgg_16/conv5/conv5_1/BiasAdd",
+      "op_type": "Conv",
+      "inputs": [
+        "vgg_16/pool4/MaxPool:0",
+        "vgg_16/conv5/conv5_1/weights:0",
+        "vgg_16/conv5/conv5_1/biases:0"
+      ],
+      "outputs": [
+        "vgg_16/conv5/conv5_1/BiasAdd:0"
+      ],
+      "producers": [
+        23
+      ],
+      "consumers": [
+        25
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 24
+    },
+    {
+      "idx": 25,
+      "name": "vgg_16/conv5/conv5_1/Relu",
+      "op_type": "Relu",
+      "inputs": [
+        "vgg_16/conv5/conv5_1/BiasAdd:0"
+      ],
+      "outputs": [
+        "vgg_16/conv5/conv5_1/Relu:0"
+      ],
+      "producers": [
+        24
+      ],
+      "consumers": [
+        26
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 25
+    },
+    {
+      "idx": 26,
+      "name": "vgg_16/conv5/conv5_2/BiasAdd",
+      "op_type": "Conv",
+      "inputs": [
+        "vgg_16/conv5/conv5_1/Relu:0",
+        "vgg_16/conv5/conv5_2/weights:0",
+        "vgg_16/conv5/conv5_2/biases:0"
+      ],
+      "outputs": [
+        "vgg_16/conv5/conv5_2/BiasAdd:0"
+      ],
+      "producers": [
+        25
+      ],
+      "consumers": [
+        27
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 26
+    },
+    {
+      "idx": 27,
+      "name": "vgg_16/conv5/conv5_2/Relu",
+      "op_type": "Relu",
+      "inputs": [
+        "vgg_16/conv5/conv5_2/BiasAdd:0"
+      ],
+      "outputs": [
+        "vgg_16/conv5/conv5_2/Relu:0"
+      ],
+      "producers": [
+        26
+      ],
+      "consumers": [
+        28
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 27
+    },
+    {
+      "idx": 28,
+      "name": "vgg_16/conv5/conv5_3/BiasAdd",
+      "op_type": "Conv",
+      "inputs": [
+        "vgg_16/conv5/conv5_2/Relu:0",
+        "vgg_16/conv5/conv5_3/weights:0",
+        "vgg_16/conv5/conv5_3/biases:0"
+      ],
+      "outputs": [
+        "vgg_16/conv5/conv5_3/BiasAdd:0"
+      ],
+      "producers": [
+        27
+      ],
+      "consumers": [
+        29
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 28
+    },
+    {
+      "idx": 29,
+      "name": "vgg_16/conv5/conv5_3/Relu",
+      "op_type": "Relu",
+      "inputs": [
+        "vgg_16/conv5/conv5_3/BiasAdd:0"
+      ],
+      "outputs": [
+        "vgg_16/conv5/conv5_3/Relu:0"
+      ],
+      "producers": [
+        28
+      ],
+      "consumers": [
+        30
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 29
+    },
+    {
+      "idx": 30,
+      "name": "vgg_16/pool5/MaxPool",
+      "op_type": "MaxPool",
+      "inputs": [
+        "vgg_16/conv5/conv5_3/Relu:0"
+      ],
+      "outputs": [
+        "vgg_16/pool5/MaxPool:0"
+      ],
+      "producers": [
+        29
+      ],
+      "consumers": [
+        31
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 30
+    },
+    {
+      "idx": 31,
+      "name": "vgg_16/fc6/BiasAdd",
+      "op_type": "Conv",
+      "inputs": [
+        "vgg_16/pool5/MaxPool:0",
+        "vgg_16/fc6/weights:0",
+        "vgg_16/fc6/biases:0"
+      ],
+      "outputs": [
+        "vgg_16/fc6/BiasAdd:0"
+      ],
+      "producers": [
+        30
+      ],
+      "consumers": [
+        32
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 31
+    },
+    {
+      "idx": 32,
+      "name": "vgg_16/fc6/Relu",
+      "op_type": "Relu",
+      "inputs": [
+        "vgg_16/fc6/BiasAdd:0"
+      ],
+      "outputs": [
+        "vgg_16/fc6/Relu:0"
+      ],
+      "producers": [
+        31
+      ],
+      "consumers": [
+        33
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 32
+    },
+    {
+      "idx": 33,
+      "name": "vgg_16/fc7/BiasAdd",
+      "op_type": "Conv",
+      "inputs": [
+        "vgg_16/fc6/Relu:0",
+        "vgg_16/fc7/weights:0",
+        "vgg_16/fc7/biases:0"
+      ],
+      "outputs": [
+        "vgg_16/fc7/BiasAdd:0"
+      ],
+      "producers": [
+        32
+      ],
+      "consumers": [
+        34
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 33
+    },
+    {
+      "idx": 34,
+      "name": "vgg_16/fc7/Relu",
+      "op_type": "Relu",
+      "inputs": [
+        "vgg_16/fc7/BiasAdd:0"
+      ],
+      "outputs": [
+        "vgg_16/fc7/Relu:0"
+      ],
+      "producers": [
+        33
+      ],
+      "consumers": [
+        35
+      ],
+      "fanin_from_nodes": 1,
+      "fanout": 1,
+      "level": 34
+    },
+    {
+      "idx": 35,
+      "name": "vgg_16/fc8/BiasAdd",
+      "op_type": "Conv",
+      "inputs": [
+        "vgg_16/fc7/Relu:0",
+        "vgg_16/fc8/weights:0",
+        "vgg_16/fc8/biases:0"
+      ],
+      "outputs": [
+        "vgg_16/fc8/BiasAdd:0"
+      ],
+      "producers": [
+        34
+      ],
+      "consumers": [],
+      "fanin_from_nodes": 1,
+      "fanout": 0,
+      "level": 35
+    }
+  ],
+  "edges": [
+    {
+      "src_idx": 0,
+      "dst_idx": 1,
+      "tensors": [
+        "vgg_16/conv1/conv1_1/BiasAdd:0"
+      ]
+    },
+    {
+      "src_idx": 1,
+      "dst_idx": 2,
+      "tensors": [
+        "vgg_16/conv1/conv1_1/Relu:0"
+      ]
+    },
+    {
+      "src_idx": 2,
+      "dst_idx": 3,
+      "tensors": [
+        "vgg_16/conv1/conv1_2/BiasAdd:0"
+      ]
+    },
+    {
+      "src_idx": 3,
+      "dst_idx": 4,
+      "tensors": [
+        "vgg_16/conv1/conv1_2/Relu:0"
+      ]
+    },
+    {
+      "src_idx": 4,
+      "dst_idx": 5,
+      "tensors": [
+        "vgg_16/pool1/MaxPool:0"
+      ]
+    },
+    {
+      "src_idx": 5,
+      "dst_idx": 6,
+      "tensors": [
+        "vgg_16/conv2/conv2_1/BiasAdd:0"
+      ]
+    },
+    {
+      "src_idx": 6,
+      "dst_idx": 7,
+      "tensors": [
+        "vgg_16/conv2/conv2_1/Relu:0"
+      ]
+    },
+    {
+      "src_idx": 7,
+      "dst_idx": 8,
+      "tensors": [
+        "vgg_16/conv2/conv2_2/BiasAdd:0"
+      ]
+    },
+    {
+      "src_idx": 8,
+      "dst_idx": 9,
+      "tensors": [
+        "vgg_16/conv2/conv2_2/Relu:0"
+      ]
+    },
+    {
+      "src_idx": 9,
+      "dst_idx": 10,
+      "tensors": [
+        "vgg_16/pool2/MaxPool:0"
+      ]
+    },
+    {
+      "src_idx": 10,
+      "dst_idx": 11,
+      "tensors": [
+        "vgg_16/conv3/conv3_1/BiasAdd:0"
+      ]
+    },
+    {
+      "src_idx": 11,
+      "dst_idx": 12,
+      "tensors": [
+        "vgg_16/conv3/conv3_1/Relu:0"
+      ]
+    },
+    {
+      "src_idx": 12,
+      "dst_idx": 13,
+      "tensors": [
+        "vgg_16/conv3/conv3_2/BiasAdd:0"
+      ]
+    },
+    {
+      "src_idx": 13,
+      "dst_idx": 14,
+      "tensors": [
+        "vgg_16/conv3/conv3_2/Relu:0"
+      ]
+    },
+    {
+      "src_idx": 14,
+      "dst_idx": 15,
+      "tensors": [
+        "vgg_16/conv3/conv3_3/BiasAdd:0"
+      ]
+    },
+    {
+      "src_idx": 15,
+      "dst_idx": 16,
+      "tensors": [
+        "vgg_16/conv3/conv3_3/Relu:0"
+      ]
+    },
+    {
+      "src_idx": 16,
+      "dst_idx": 17,
+      "tensors": [
+        "vgg_16/pool3/MaxPool:0"
+      ]
+    },
+    {
+      "src_idx": 17,
+      "dst_idx": 18,
+      "tensors": [
+        "vgg_16/conv4/conv4_1/BiasAdd:0"
+      ]
+    },
+    {
+      "src_idx": 18,
+      "dst_idx": 19,
+      "tensors": [
+        "vgg_16/conv4/conv4_1/Relu:0"
+      ]
+    },
+    {
+      "src_idx": 19,
+      "dst_idx": 20,
+      "tensors": [
+        "vgg_16/conv4/conv4_2/BiasAdd:0"
+      ]
+    },
+    {
+      "src_idx": 20,
+      "dst_idx": 21,
+      "tensors": [
+        "vgg_16/conv4/conv4_2/Relu:0"
+      ]
+    },
+    {
+      "src_idx": 21,
+      "dst_idx": 22,
+      "tensors": [
+        "vgg_16/conv4/conv4_3/BiasAdd:0"
+      ]
+    },
+    {
+      "src_idx": 22,
+      "dst_idx": 23,
+      "tensors": [
+        "vgg_16/conv4/conv4_3/Relu:0"
+      ]
+    },
+    {
+      "src_idx": 23,
+      "dst_idx": 24,
+      "tensors": [
+        "vgg_16/pool4/MaxPool:0"
+      ]
+    },
+    {
+      "src_idx": 24,
+      "dst_idx": 25,
+      "tensors": [
+        "vgg_16/conv5/conv5_1/BiasAdd:0"
+      ]
+    },
+    {
+      "src_idx": 25,
+      "dst_idx": 26,
+      "tensors": [
+        "vgg_16/conv5/conv5_1/Relu:0"
+      ]
+    },
+    {
+      "src_idx": 26,
+      "dst_idx": 27,
+      "tensors": [
+        "vgg_16/conv5/conv5_2/BiasAdd:0"
+      ]
+    },
+    {
+      "src_idx": 27,
+      "dst_idx": 28,
+      "tensors": [
+        "vgg_16/conv5/conv5_2/Relu:0"
+      ]
+    },
+    {
+      "src_idx": 28,
+      "dst_idx": 29,
+      "tensors": [
+        "vgg_16/conv5/conv5_3/BiasAdd:0"
+      ]
+    },
+    {
+      "src_idx": 29,
+      "dst_idx": 30,
+      "tensors": [
+        "vgg_16/conv5/conv5_3/Relu:0"
+      ]
+    },
+    {
+      "src_idx": 30,
+      "dst_idx": 31,
+      "tensors": [
+        "vgg_16/pool5/MaxPool:0"
+      ]
+    },
+    {
+      "src_idx": 31,
+      "dst_idx": 32,
+      "tensors": [
+        "vgg_16/fc6/BiasAdd:0"
+      ]
+    },
+    {
+      "src_idx": 32,
+      "dst_idx": 33,
+      "tensors": [
+        "vgg_16/fc6/Relu:0"
+      ]
+    },
+    {
+      "src_idx": 33,
+      "dst_idx": 34,
+      "tensors": [
+        "vgg_16/fc7/BiasAdd:0"
+      ]
+    },
+    {
+      "src_idx": 34,
+      "dst_idx": 35,
+      "tensors": [
+        "vgg_16/fc7/Relu:0"
+      ]
+    }
+  ]
+}
