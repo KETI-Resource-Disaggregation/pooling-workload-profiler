@@ -1,0 +1,20 @@
+{
+  "mode": "synthetic",
+  "start_ts": "2025-09-19 18:18:29",
+  "end_ts": "2025-09-19 18:18:29",
+  "batch": 2,
+  "seq": 64,
+  "hidden": 768,
+  "layers": 2,
+  "heads": 12,
+  "fp16": false,
+  "train": false,
+  "dp": false,
+  "dp_gpus": 2,
+  "iters": 50,
+  "duration_s": 0.15571212768554688,
+  "tokens_total": 6400,
+  "tokens_per_s": 41101.48705259805,
+  "gpu0_peak_mem_MiB": 70,
+  "gpu1_peak_mem_MiB": 0
+}
