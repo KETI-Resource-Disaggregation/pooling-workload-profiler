@@ -1,0 +1,455 @@
+{
+  "model_path": "VGG/vgg16.onnx",
+  "assumed_activation_dtype": "fp32",
+  "arch_group": "cnn",
+  "memory_overhead": {
+    "applied_factor_F": 3.922613988807393,
+    "policy": "arch-only",
+    "defaults": {
+      "transformer": 2.7,
+      "cnn": 4.8
+    },
+    "fallback": 4.2,
+    "auto_detection": {
+      "chosen": "cnn",
+      "confidence": 0.9999999795918372,
+      "scores": {
+        "transformer": 0.0,
+        "cnn": 49.0
+      },
+      "raw_counts": {
+        "MatMul+Gemm": 0,
+        "LayerNorm": 0,
+        "Softmax": 0,
+        "Gelu": 0,
+        "AttentionNodes": 0,
+        "Conv": 16,
+        "BN": 0,
+        "Pools": 5,
+        "ReLU": 15
+      },
+      "model_stem": "vgg16"
+    }
+  },
+  "total_parameters": 138357544,
+  "parameter_memory_bytes": 553430176,
+  "activation_memory_peak_baseline_bytes": 442744140,
+  "activation_memory_peak_bytes_theoretical": 25690112,
+  "activation_memory_upper_bytes_theoretical": 668603456,
+  "estimated_activation_peak_bytes": 1736714357,
+  "estimated_activation_peak_bytes_lo": 1563042921,
+  "estimated_activation_peak_bytes_hi": 1910385792,
+  "estimated_total_memory_peak_bytes": 1736714357,
+  "total_flops_per_inference": 30954084352,
+  "operator_distribution_by_count": {
+    "Conv": 16,
+    "Relu": 15,
+    "MaxPool": 5
+  },
+  "operator_distribution_by_flops": {
+    "Conv": 30940528640,
+    "Relu": 13555712
+  },
+  "block_group_flops_share": {
+    "Convolutional": 30940528640,
+    "Activation": 13555712
+  },
+  "per_node_stats": [
+    {
+      "idx": 0,
+      "name": "vgg_16/conv1/conv1_1/BiasAdd",
+      "op_type": "Conv",
+      "group": "Convolutional",
+      "macs": 86704128,
+      "flops": 173408256,
+      "param_elems": 1792,
+      "param_bytes": 7168,
+      "activation_bytes": 50386196
+    },
+    {
+      "idx": 1,
+      "name": "vgg_16/conv1/conv1_1/Relu",
+      "op_type": "Relu",
+      "group": "Activation",
+      "macs": 1605632,
+      "flops": 3211264,
+      "param_elems": 0,
+      "param_bytes": 0,
+      "activation_bytes": 50386196
+    },
+    {
+      "idx": 2,
+      "name": "vgg_16/conv1/conv1_2/BiasAdd",
+      "op_type": "Conv",
+      "group": "Convolutional",
+      "macs": 1849688064,
+      "flops": 3699376128,
+      "param_elems": 36928,
+      "param_bytes": 147712,
+      "activation_bytes": 50386196
+    },
+    {
+      "idx": 3,
+      "name": "vgg_16/conv1/conv1_2/Relu",
+      "op_type": "Relu",
+      "group": "Activation",
+      "macs": 1605632,
+      "flops": 3211264,
+      "param_elems": 0,
+      "param_bytes": 0,
+      "activation_bytes": 50386196
+    },
+    {
+      "idx": 4,
+      "name": "vgg_16/pool1/MaxPool",
+      "op_type": "MaxPool",
+      "group": "Pooling",
+      "macs": null,
+      "flops": null,
+      "param_elems": 0,
+      "param_bytes": 0,
+      "activation_bytes": 12596549
+    },
+    {
+      "idx": 5,
+      "name": "vgg_16/conv2/conv2_1/BiasAdd",
+      "op_type": "Conv",
+      "group": "Convolutional",
+      "macs": 924844032,
+      "flops": 1849688064,
+      "param_elems": 73856,
+      "param_bytes": 295424,
+      "activation_bytes": 25193098
+    },
+    {
+      "idx": 6,
+      "name": "vgg_16/conv2/conv2_1/Relu",
+      "op_type": "Relu",
+      "group": "Activation",
+      "macs": 802816,
+      "flops": 1605632,
+      "param_elems": 0,
+      "param_bytes": 0,
+      "activation_bytes": 25193098
+    },
+    {
+      "idx": 7,
+      "name": "vgg_16/conv2/conv2_2/BiasAdd",
+      "op_type": "Conv",
+      "group": "Convolutional",
+      "macs": 1849688064,
+      "flops": 3699376128,
+      "param_elems": 147584,
+      "param_bytes": 590336,
+      "activation_bytes": 25193098
+    },
+    {
+      "idx": 8,
+      "name": "vgg_16/conv2/conv2_2/Relu",
+      "op_type": "Relu",
+      "group": "Activation",
+      "macs": 802816,
+      "flops": 1605632,
+      "param_elems": 0,
+      "param_bytes": 0,
+      "activation_bytes": 25193098
+    },
+    {
+      "idx": 9,
+      "name": "vgg_16/pool2/MaxPool",
+      "op_type": "MaxPool",
+      "group": "Pooling",
+      "macs": null,
+      "flops": null,
+      "param_elems": 0,
+      "param_bytes": 0,
+      "activation_bytes": 6298274
+    },
+    {
+      "idx": 10,
+      "name": "vgg_16/conv3/conv3_1/BiasAdd",
+      "op_type": "Conv",
+      "group": "Convolutional",
+      "macs": 924844032,
+      "flops": 1849688064,
+      "param_elems": 295168,
+      "param_bytes": 1180672,
+      "activation_bytes": 12596549
+    },
+    {
+      "idx": 11,
+      "name": "vgg_16/conv3/conv3_1/Relu",
+      "op_type": "Relu",
+      "group": "Activation",
+      "macs": 401408,
+      "flops": 802816,
+      "param_elems": 0,
+      "param_bytes": 0,
+      "activation_bytes": 12596549
+    },
+    {
+      "idx": 12,
+      "name": "vgg_16/conv3/conv3_2/BiasAdd",
+      "op_type": "Conv",
+      "group": "Convolutional",
+      "macs": 1849688064,
+      "flops": 3699376128,
+      "param_elems": 590080,
+      "param_bytes": 2360320,
+      "activation_bytes": 12596549
+    },
+    {
+      "idx": 13,
+      "name": "vgg_16/conv3/conv3_2/Relu",
+      "op_type": "Relu",
+      "group": "Activation",
+      "macs": 401408,
+      "flops": 802816,
+      "param_elems": 0,
+      "param_bytes": 0,
+      "activation_bytes": 12596549
+    },
+    {
+      "idx": 14,
+      "name": "vgg_16/conv3/conv3_3/BiasAdd",
+      "op_type": "Conv",
+      "group": "Convolutional",
+      "macs": 1849688064,
+      "flops": 3699376128,
+      "param_elems": 590080,
+      "param_bytes": 2360320,
+      "activation_bytes": 12596549
+    },
+    {
+      "idx": 15,
+      "name": "vgg_16/conv3/conv3_3/Relu",
+      "op_type": "Relu",
+      "group": "Activation",
+      "macs": 401408,
+      "flops": 802816,
+      "param_elems": 0,
+      "param_bytes": 0,
+      "activation_bytes": 12596549
+    },
+    {
+      "idx": 16,
+      "name": "vgg_16/pool3/MaxPool",
+      "op_type": "MaxPool",
+      "group": "Pooling",
+      "macs": null,
+      "flops": null,
+      "param_elems": 0,
+      "param_bytes": 0,
+      "activation_bytes": 3149137
+    },
+    {
+      "idx": 17,
+      "name": "vgg_16/conv4/conv4_1/BiasAdd",
+      "op_type": "Conv",
+      "group": "Convolutional",
+      "macs": 924844032,
+      "flops": 1849688064,
+      "param_elems": 1180160,
+      "param_bytes": 4720640,
+      "activation_bytes": 6298274
+    },
+    {
+      "idx": 18,
+      "name": "vgg_16/conv4/conv4_1/Relu",
+      "op_type": "Relu",
+      "group": "Activation",
+      "macs": 200704,
+      "flops": 401408,
+      "param_elems": 0,
+      "param_bytes": 0,
+      "activation_bytes": 6298274
+    },
+    {
+      "idx": 19,
+      "name": "vgg_16/conv4/conv4_2/BiasAdd",
+      "op_type": "Conv",
+      "group": "Convolutional",
+      "macs": 1849688064,
+      "flops": 3699376128,
+      "param_elems": 2359808,
+      "param_bytes": 9439232,
+      "activation_bytes": 6298274
+    },
+    {
+      "idx": 20,
+      "name": "vgg_16/conv4/conv4_2/Relu",
+      "op_type": "Relu",
+      "group": "Activation",
+      "macs": 200704,
+      "flops": 401408,
+      "param_elems": 0,
+      "param_bytes": 0,
+      "activation_bytes": 6298274
+    },
+    {
+      "idx": 21,
+      "name": "vgg_16/conv4/conv4_3/BiasAdd",
+      "op_type": "Conv",
+      "group": "Convolutional",
+      "macs": 1849688064,
+      "flops": 3699376128,
+      "param_elems": 2359808,
+      "param_bytes": 9439232,
+      "activation_bytes": 6298274
+    },
+    {
+      "idx": 22,
+      "name": "vgg_16/conv4/conv4_3/Relu",
+      "op_type": "Relu",
+      "group": "Activation",
+      "macs": 200704,
+      "flops": 401408,
+      "param_elems": 0,
+      "param_bytes": 0,
+      "activation_bytes": 6298274
+    },
+    {
+      "idx": 23,
+      "name": "vgg_16/pool4/MaxPool",
+      "op_type": "MaxPool",
+      "group": "Pooling",
+      "macs": null,
+      "flops": null,
+      "param_elems": 0,
+      "param_bytes": 0,
+      "activation_bytes": 1574568
+    },
+    {
+      "idx": 24,
+      "name": "vgg_16/conv5/conv5_1/BiasAdd",
+      "op_type": "Conv",
+      "group": "Convolutional",
+      "macs": 462422016,
+      "flops": 924844032,
+      "param_elems": 2359808,
+      "param_bytes": 9439232,
+      "activation_bytes": 1574568
+    },
+    {
+      "idx": 25,
+      "name": "vgg_16/conv5/conv5_1/Relu",
+      "op_type": "Relu",
+      "group": "Activation",
+      "macs": 50176,
+      "flops": 100352,
+      "param_elems": 0,
+      "param_bytes": 0,
+      "activation_bytes": 1574568
+    },
+    {
+      "idx": 26,
+      "name": "vgg_16/conv5/conv5_2/BiasAdd",
+      "op_type": "Conv",
+      "group": "Convolutional",
+      "macs": 462422016,
+      "flops": 924844032,
+      "param_elems": 2359808,
+      "param_bytes": 9439232,
+      "activation_bytes": 1574568
+    },
+    {
+      "idx": 27,
+      "name": "vgg_16/conv5/conv5_2/Relu",
+      "op_type": "Relu",
+      "group": "Activation",
+      "macs": 50176,
+      "flops": 100352,
+      "param_elems": 0,
+      "param_bytes": 0,
+      "activation_bytes": 1574568
+    },
+    {
+      "idx": 28,
+      "name": "vgg_16/conv5/conv5_3/BiasAdd",
+      "op_type": "Conv",
+      "group": "Convolutional",
+      "macs": 462422016,
+      "flops": 924844032,
+      "param_elems": 2359808,
+      "param_bytes": 9439232,
+      "activation_bytes": 1574568
+    },
+    {
+      "idx": 29,
+      "name": "vgg_16/conv5/conv5_3/Relu",
+      "op_type": "Relu",
+      "group": "Activation",
+      "macs": 50176,
+      "flops": 100352,
+      "param_elems": 0,
+      "param_bytes": 0,
+      "activation_bytes": 1574568
+    },
+    {
+      "idx": 30,
+      "name": "vgg_16/pool5/MaxPool",
+      "op_type": "MaxPool",
+      "group": "Pooling",
+      "macs": null,
+      "flops": null,
+      "param_elems": 0,
+      "param_bytes": 0,
+      "activation_bytes": 393642
+    },
+    {
+      "idx": 31,
+      "name": "vgg_16/fc6/BiasAdd",
+      "op_type": "Conv",
+      "group": "Convolutional",
+      "macs": 102760448,
+      "flops": 205520896,
+      "param_elems": 102764544,
+      "param_bytes": 411058176,
+      "activation_bytes": 64268
+    },
+    {
+      "idx": 32,
+      "name": "vgg_16/fc6/Relu",
+      "op_type": "Relu",
+      "group": "Activation",
+      "macs": 2048,
+      "flops": 4096,
+      "param_elems": 0,
+      "param_bytes": 0,
+      "activation_bytes": 64268
+    },
+    {
+      "idx": 33,
+      "name": "vgg_16/fc7/BiasAdd",
+      "op_type": "Conv",
+      "group": "Convolutional",
+      "macs": 16777216,
+      "flops": 33554432,
+      "param_elems": 16781312,
+      "param_bytes": 67125248,
+      "activation_bytes": 64268
+    },
+    {
+      "idx": 34,
+      "name": "vgg_16/fc7/Relu",
+      "op_type": "Relu",
+      "group": "Activation",
+      "macs": 2048,
+      "flops": 4096,
+      "param_elems": 0,
+      "param_bytes": 0,
+      "activation_bytes": 64268
+    },
+    {
+      "idx": 35,
+      "name": "vgg_16/fc8/BiasAdd",
+      "op_type": "Conv",
+      "group": "Convolutional",
+      "macs": 4096000,
+      "flops": 8192000,
+      "param_elems": 4097000,
+      "param_bytes": 16388000,
+      "activation_bytes": 15690
+    }
+  ]
+}
