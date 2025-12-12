@@ -1,0 +1,97 @@
+{
+  "pipeswitch_metrics": {
+    "sequential": {
+      "T_train_single": 0.46,
+      "T_infer_single": 45.3959,
+      "T_train": 0.46,
+      "T_infer": 45.3959,
+      "train_efficiency": 100.0,
+      "infer_efficiency": 100.0,
+      "combined_efficiency": 100.0
+    },
+    "vanilla": {
+      "T_train_single": 0.46,
+      "T_infer_single": 45.3959,
+      "T_train": 0.25,
+      "T_infer": 22.0452,
+      "train_efficiency": 54.347826086956516,
+      "infer_efficiency": 48.562094814729974,
+      "combined_efficiency": 51.454960450843245
+    },
+    "mps": {
+      "T_train_single": 0.46,
+      "T_infer_single": 45.3959,
+      "T_train": 0.44,
+      "T_infer": 23.87,
+      "train_efficiency": 95.65217391304347,
+      "infer_efficiency": 52.581841091376106,
+      "combined_efficiency": 74.11700750220979
+    },
+    "KETI": {
+      "T_train_single": 0.46,
+      "T_infer_single": 45.3959,
+      "T_train": 0.32,
+      "T_infer": 28.913,
+      "train_efficiency": 69.56521739130434,
+      "infer_efficiency": 63.690773836403736,
+      "combined_efficiency": 66.62799561385404
+    }
+  },
+  "time_based": {
+    "sequential": {
+      "total_time": 937.576742887497,
+      "gpu_busy_time": 935.5642876625061,
+      "train_time": 452.7459166049957,
+      "infer_time": 482.8183710575104,
+      "overlap_time": 0,
+      "utilization": 99.78535567992087
+    },
+    "vanilla": {
+      "total_time": 980.7614381313324,
+      "gpu_busy_time": 980.7543766498566,
+      "train_time": 823.9659698009491,
+      "infer_time": 977.7480554580688,
+      "overlap_time": 820.9596486091614,
+      "utilization": 99.9992800000896
+    },
+    "mps": {
+      "total_time": 907.9536373615265,
+      "gpu_busy_time": 905.9338026046753,
+      "train_time": 473.4870970249176,
+      "infer_time": 902.9274325370789,
+      "overlap_time": 470.48072695732117,
+      "utilization": 99.77753987937966
+    },
+    "KETI": {
+      "total_time": 1086.1608085632324,
+      "gpu_busy_time": 1084.1459307670593,
+      "train_time": 638.1434700489044,
+      "infer_time": 1081.1393053531647,
+      "overlap_time": 635.1368446350098,
+      "utilization": 99.8144954430055
+    }
+  },
+  "memory_bw": {
+    "vanilla": {
+      "avg_mem_util": 40.55788313120176,
+      "max_mem_util": 70,
+      "min_mem_util": 28,
+      "avg_power_w": 297.71554575523703,
+      "num_samples": 907
+    },
+    "mps": {
+      "avg_mem_util": 41.890459363957596,
+      "max_mem_util": 86,
+      "min_mem_util": 31,
+      "avg_power_w": 297.8504122497055,
+      "num_samples": 849
+    },
+    "KETI": {
+      "avg_mem_util": 36.58881256133464,
+      "max_mem_util": 83,
+      "min_mem_util": 16,
+      "avg_power_w": 297.5740922473013,
+      "num_samples": 1019
+    }
+  }
+}
