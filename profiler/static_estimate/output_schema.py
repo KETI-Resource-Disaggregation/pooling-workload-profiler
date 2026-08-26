@@ -1,7 +1,7 @@
 """Phase 2 — controller 출력 인터페이스 정의.
 
 기존 controller API 확인 결과 (Exp_12-A 탐사):
-  - 등록 진입점은 prism_controller.py `POST /register`
+  - 등록 진입점은 kraken_controller.py `POST /register`
     {tenant_id, virtual_sm, virtual_mem_mb, weight} 뿐이며
     quota/token_budget/confidence 개념은 controller/SHM 에 존재하지 않음.
   → 따라서 본 모듈이 JSON 출력 스키마를 신규 정의하고, /register 로의

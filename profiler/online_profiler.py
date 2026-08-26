@@ -14,7 +14,7 @@ from pathlib import Path
 from typing import Optional, Callable
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "shm"))
-from prism_shm import open_shm, MODE_FREE, MODE_OVERCOMMIT, MODE_PROFILING, \
+from kraken_shm import open_shm, MODE_FREE, MODE_OVERCOMMIT, MODE_PROFILING, \
                      GATE_WAITING, GATE_RUNNING, MAX_TENANTS
 
 from killer_extractor import KernelRecord, KillerPolicy, extract, from_torch_profiler
@@ -143,7 +143,7 @@ class OnlineProfiler:
             "kernels_per_iter": 0,   # 아직 미확정
             "confidence":       "LOW",
         }
-        hot_path = Path(f"/tmp/prism_killers_{self.group_id}_{tenant_idx}.json")
+        hot_path = Path(f"/tmp/kraken_killers_{self.group_id}_{tenant_idx}.json")
         with open(hot_path, "w") as f:
             json.dump(policy_dict, f)
 
@@ -259,7 +259,7 @@ class OnlineProfiler:
             "kernels_per_iter": policy.kernels_per_iter,
             "confidence":       policy.confidence,
         }
-        hot_path = Path(f"/tmp/prism_killers_{self.group_id}_{tenant_idx}.json")
+        hot_path = Path(f"/tmp/kraken_killers_{self.group_id}_{tenant_idx}.json")
         with open(hot_path, "w") as f:
             json.dump(policy_dict, f)
         self.shm.killer_policy_version += 1
