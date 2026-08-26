@@ -18,7 +18,7 @@ import os
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "shm"))
-from prism_shm import (
+from kraken_shm import (
     open_shm, MAX_TENANTS,
     MODE_FREE, MODE_OVERCOMMIT, MODE_PROFILING,
     GATE_RUNNING, GATE_KILLER_ACTIVE, GATE_WAITING,

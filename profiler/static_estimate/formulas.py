@@ -73,15 +73,15 @@ def quota_margin_mb(est_mem_mb: int) -> int:
                    max(QUOTA_MARGIN_MIN_MB, QUOTA_MARGIN_RATIO * est_mem_mb)))
 
 
-# 노드 230 실장비 프로파일 (prism_shm.py:214 — A6000 SM 84 / lsu catalog 실측 65)
+# 노드 230 실장비 프로파일 (kraken_shm.py:214 — A6000 SM 84 / lsu catalog 실측 65)
 DEVICE_PROFILE = {
     "name": "NVIDIA RTX A6000",
     "mem_mb": 48 * 1024,     # 48 GiB
-    "sm_total": 84,          # shm/prism_shm.py:214 (compute capability 8.6)
+    "sm_total": 84,          # shm/kraken_shm.py:214 (compute capability 8.6)
     "lsu": 65,               # lsu/catalog.json 2026-06-18 실측 (provisional)
 }
 
-# controller round 기본값 (shm/prism_shm.py:124 — 100ms)
+# controller round 기본값 (shm/kraken_shm.py:124 — 100ms)
 ROUND_DURATION_DEFAULT_US = 100_000
 
 
