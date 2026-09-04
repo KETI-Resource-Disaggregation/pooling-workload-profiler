@@ -25,7 +25,26 @@ KTRACE_OUT=/tmp/trace.txt KTRACE_FLUSH_MS=100 KTRACE_BUF_KB=64 \
 ```
 
 `libcupti.so.12`가 기본 검색 경로에 없으면 `LD_LIBRARY_PATH`가 필수다 (230 환경 확인).
-`LD_PRELOAD`는 대상 프로세스에만 걸 것 — `timeout` 등 래퍼에 걸리면 로드 실패.
+
+### 컨테이너 주입 (Exp_131)
+
+컨테이너에서는 `LD_LIBRARY_PATH` 대신 **`libcupti.so.12` 를 `LD_PRELOAD` 에 함께
+싣는다** — 워크로드가 이미 쓰고 있을 `LD_LIBRARY_PATH` 를 덮어쓰지 않기 위함이다
+(주입 주체인 device-plugin Allocate 는 파드의 기존 env 를 읽을 수 없다).
+
+```bash
+LD_PRELOAD=/…/libcupti.so.12:/…/kernel_tracer.so \
+KTRACE_OUT=/tmp/trace.%p.txt KTRACE_FLUSH_MS=100 KTRACE_BUF_KB=64 …
+```
+
+의존은 `libcupti.so.12` 하나뿐이다(`ldd` 실측 — 나머지는 glibc). CUPTI 디렉터리
+전체를 마운트하지 않아도 되지만, 라이브 경로는 디렉터리째 read-only 로 붙인다.
+
+**`%p` 는 pid 로 치환된다(Exp_131).** `LD_PRELOAD` 로 주입하면 컨테이너의 모든
+프로세스가 tracer 를 적재하고, tracer 는 `KTRACE_OUT` 을 `"w"` 로 연다 — 같은
+경로를 쓰면 마지막 프로세스(예: 파드 command 의 `cat`)가 앞서 수집한 트레이스를
+**길이 0 으로 잘라낸다.** CUDA 를 안 쓰는 프로세스는 빈 파일만 남기므로 수집기는
+가장 큰 파일을 고른다. `%p` 가 없으면 종전 동작 그대로다.
 
 | 환경변수 | 기본 | 설명 |
 |---|---|---|
@@ -55,5 +74,16 @@ S|start_ns|dur_ns|bytes
 
 ## 주의
 
-- **LD_PRELOAD 계열 워크로드(libbless 등)와의 조합 금지** — 미해결 행(hang) 이슈
-  (Exp_19 report 참조). libbless 대상 트레이싱이 필요하면 별도 검증 선행.
+- ~~LD_PRELOAD 계열 워크로드(libbless 등)와의 조합 금지~~ — **해소됨.**
+  Exp_29 에서 이미 해결됐으나 이 문서가 갱신되지 않아 Exp_125·126 이 이 문장을
+  근거로 판단을 미뤘다(T-7 사례). Exp_131 에서 232 컨테이너 실측:
+  `libbless.so:libcupti.so.12:kernel_tracer.so` 공존 정상, 행 없음, drop 0,
+  tracer 추가 비용 **−1.28%**(중앙값, n=5, 1회차 제외 — T-8).
+  순서(libbless 앞/뒤)는 회차 산포 안이라 **무관**하나, 기존 항목을 뒤로 밀지
+  않는다는 이유로 주입은 `libbless → libcupti → tracer` 순서로 고정한다.
+- **`ldd` 는 이 상태에서 행(hang)한다** (Exp_131 1-A). 로더 추적 모드가
+  tracer 생성자를 돌리기 때문. 진단 시 `LD_PRELOAD` 를 뺀 채 `ldd` 를 쓴다.
+  워크로드 경로(sh/python/CUDA)는 정상이다.
+- **기록량이 오버헤드보다 큰 제약이다** (Exp_131 2-D): bert b8 기준
+  약 **3.8 MB/s**(15초에 62 MB, 파드당 시간당 ~13.7 GB). 상시 적재 판단은
+  성능이 아니라 이 양으로 한다.

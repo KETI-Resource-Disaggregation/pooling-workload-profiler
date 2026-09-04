@@ -28,6 +28,7 @@
 #include <stdint.h>
 #include <time.h>
 #include <pthread.h>
+#include <unistd.h>
 #include <cupti.h>
 
 /* 기본 8MB. 스트리밍 용도는 KTRACE_BUF_KB 로 줄인다 — flag=0 플러시는
@@ -152,9 +153,28 @@ static void *flusher(void *arg) {
     return NULL;
 }
 
+// [Exp_131] KTRACE_OUT 안의 "%p" 를 pid 로 치환한다.
+//   ★근거: LD_PRELOAD 로 주입하면 컨테이너의 **모든** 프로세스가 이 생성자를
+//   돈다. 파드 command 가 `bash -c "python ...; cat ..."` 이면 bash·python·cat
+//   셋이 같은 KTRACE_OUT 을 fopen(...,"w") 로 열어, 마지막 프로세스가 앞서
+//   수집한 트레이스를 **길이 0 으로 잘라낸다**(Exp_131 1-C 에서 확인).
+//   CUDA 를 쓰지 않는 프로세스는 빈 파일만 남기므로 수집기는 가장 큰 것을 고른다.
+//   "%p" 가 없으면 종전과 동일하게 동작한다(Exp_19 스크립트 무영향).
+static void ktrace_expand_pid(const char *in, char *dst, size_t n) {
+    const char *m = strstr(in, "%p");
+    if (!m) { snprintf(dst, n, "%s", in); return; }
+    snprintf(dst, n, "%.*s%ld%s", (int)(m - in), in, (long)getpid(), m + 2);
+}
+
 __attribute__((constructor)) static void ktrace_init(void) {
     const char *path = getenv("KTRACE_OUT");
-    out = path ? fopen(path, "w") : stderr;
+    char resolved[4096];
+    if (path) {
+        ktrace_expand_pid(path, resolved, sizeof resolved);
+        out = fopen(resolved, "w");
+    } else {
+        out = stderr;
+    }
     if (!out) out = stderr;
     const char *bk = getenv("KTRACE_BUF_KB");
     if (bk && atol(bk) >= 16)

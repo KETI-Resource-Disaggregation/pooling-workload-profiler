@@ -100,6 +100,22 @@ def monitor(uuid, out_path, stop_file, events_path=None):
                 max_gap = max(max_gap, t - last_active)
             last_active = t
         rec = {"t": round(t, 3), "util": util, "mem_mb": mem}
+        # [Exp_134] ★재무장 — 원본은 `signaled` 를 한 번 세우면 되돌리지 않아
+        #   **첫 작업 하나만 감지하고 그 뒤로는 영원히 침묵**한다. Exp_19 는 작업
+        #   하나를 지켜보는 단발 모니터였으므로 그것으로 충분했으나, 상주 데몬으로
+        #   띄우면(Exp_134 3-B) 두 번째 작업부터 감지가 없다 — 실측: 10회 중 1회만
+        #   이벤트 발화. 새 활동이 무장 조건을 다시 만족하면 재무장한다.
+        #   ⚠️ 판정 규칙·임계값·폴링 주기는 **그대로**다(Exp_19 검증치). 바뀐 것은
+        #     생애주기뿐이다.
+        if signaled and (hi_util_streak >= ARM_STREAK
+                         or mem > baseline_mb + ARM_MEM_MB):
+            signaled = False
+            armed = True
+            peak_mb = mem
+            max_gap = 0.0
+            last_active = t
+            out.write(json.dumps({"t": round(t, 3), "event": "rearmed",
+                                  "util": util, "mem_mb": mem}) + "\n")
         if armed and not signaled:
             vram_released = (peak_mb - baseline_mb > ARM_MEM_MB and
                              mem < baseline_mb + RELEASE_FRAC * (peak_mb - baseline_mb))
